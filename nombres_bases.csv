@@ -1,9 +1,9 @@
 main_id,categoria,subcategoria,nombre_base,nombre archivo original,repositorio,url,csv_corregido,xlsx,registros,Tableau Online,Solicitud de Información Nro,Solicitud de Información Descripción
-1,apoyos_subsidios,energeticos,2014_2015_Solicitudes Diesel,2014_2015_solicitudes_diesel.csv,github,Link,si,si,30,as_2014_2015_solicitudes_combustible,,
-2,apoyos_subsidios,energeticos,2011_2015_Beneficiarios Diesel,diesel.csv,github,Link,no,si,5320,as_beneficiarios_diesel_gasolina,,
-3,apoyos_subsidios,energeticos,2014_2015_Solicitudes Gasolina,2014_2015_solicitudes_gasolina.csv,github,Link,si,si,1685,as_2014_2015_solicitudes_combustible,,
-4,apoyos_subsidios,energeticos,2011_2015_Beneficiarios Gasolina,gasolina.csv,github,Link,no,si,69232,as_beneficiarios_diesel_gasolina,,
-5,apoyos_subsidios,energeticos,2011_Beneficiarios Eléctricos,electricos.csv,github,Link,si,si,17,as_electricos,,
+1,apoyos_subsidios,energeticos,2014_2015_Solicitudes Diesel,2014_2015_solicitudes_diesel.csv,github,Link,si,si,29,as_2014_2015_solicitudes_combustible,819700012416,Información sobre apoyos y subsidios.
+2,apoyos_subsidios,energeticos,2011_2015_Beneficiarios Diesel,2011_2015_beneficiarios_diesel.csv,github,Link,si,si,5320,as_beneficiarios_diesel_gasolina,819700012416,Información sobre apoyos y subsidios.
+3,apoyos_subsidios,energeticos,2014_2015_Solicitudes Gasolina,2014_2015_solicitudes_gasolina.csv,github,Link,si,si,1685,as_2014_2015_solicitudes_combustible,819700012416,Información sobre apoyos y subsidios.
+4,apoyos_subsidios,energeticos,2011_2015_Beneficiarios Gasolina,2011_2015_beneficiarios_gasolina.csv,github,Link,no,si,69232,as_beneficiarios_diesel_gasolina,819700012416,Información sobre apoyos y subsidios.
+5,apoyos_subsidios,energeticos,2011_Beneficiarios Eléctricos,2011_beneficiarios_electricos.csv,github,Link,si,si,17,as_electricos,819700012416,Información sobre apoyos y subsidios.
 6,apoyos_subsidios,modernizacion,2008_2012 Beneficiarios Motores,motores.csv,github,Link,si,si,17653,as_motores,,
 7,apoyos_subsidios,modernizacion,2011_2015 Beneficiarios Modernización Embarcaciones Menores,beneficiarios_embarcaciones_menores.csv,github,Link,si,si,25241,as_beneficiarios_embarcaciones_menores,,
 8,apoyos_subsidios,modernizacion,2014_2015 Solicitudes Modernización Embarcaciones Menores,solicitudes_embarcaciones_menores.csv,github,Link,si,si,10250,as_solicitudes_embarcaciones_menores,,

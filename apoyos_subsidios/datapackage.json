@@ -1,0 +1,1138 @@
+{
+  "name": "apoyos_subsidios",
+  "resources": [
+    {
+      "schema": {
+        "fields": [
+        {
+          "description": "main_ID",
+          "label": "main_ID",
+          "type": "integer",
+          "id": "main_ID",
+          "name": "main_ID"
+        },
+        {
+            "description": "Tipo",
+            "label": "Tipo",
+            "type": "string",
+            "id": "Tipo",
+            "name": "Tipo"
+          },
+          {
+            "description": "Año",
+            "format": "YYYY",
+            "label": "Año",
+            "type": "date",
+            "id": "Año",
+            "name": "Año"
+          },
+          {
+            "description": "Estado",
+            "label": "Estado",
+            "type": "string",
+            "id": "Estado",
+            "name": "Estado"
+          },
+          {
+            "description": "Solicitudes_Recibidas",
+            "label": "Solicitudes_Recibidas",
+            "type": "string",
+            "id": "Solicitudes_Recibidas",
+            "name": "Solicitudes_Recibidas"
+          },
+          {
+            "description": "Activos_con_Consumos",
+            "label": "Activos_con_Consumos",
+            "type": "string",
+            "id": "Activos_con_Consumos",
+            "name": "Activos_con_Consumos"
+          }
+        ]
+      },
+      "data": [
+        "2014_2015_solicitudes_diesel.csv"
+      ],
+      "name": "2014_2015_solicitudes_diesel",
+      "mediatype": "text/csv",
+      "format": "CSV"
+    },
+    {
+      "schema": {
+        "fields": [
+          {
+            "description": "main_ID",
+            "label": "main_ID",
+            "type": "integer",
+            "id": "main_ID",
+            "name": "main_ID"
+          },
+          {
+            "description": "Tipo",
+            "label": "Tipo",
+            "type": "string",
+            "id": "Tipo",
+            "name": "Tipo"
+          },
+          {
+            "description": "Año",
+            "format": "YYYY",
+            "label": "Año",
+            "type": "date",
+            "id": "Año",
+            "name": "Año"
+          },
+          {
+            "description": "Estado",
+            "label": "Estado",
+            "type": "string",
+            "id": "Estado",
+            "name": "Estado"
+          },
+          {
+            "description": "Municipio",
+            "label": "Municipio",
+            "type": "string",
+            "id": "Municipio",
+            "name": "Municipio"
+          },
+          {
+            "description": "Localidad",
+            "label": "Localidad",
+            "type": "string",
+            "id": "Localidad",
+            "name": "Localidad"
+          },
+          {
+            "description": "Solicitudes_Recibidas",
+            "label": "Solicitudes_Recibidas",
+            "type": "string",
+            "id": "Solicitudes_Recibidas",
+            "name": "Solicitudes_Recibidas"
+          },
+          {
+            "description": "Solicitudes_Atendidas",
+            "label": "Solicitudes_Atendidas",
+            "type": "string",
+            "id": "Solicitudes_Atendidas",
+            "name": "Solicitudes_Atendidas"
+          }
+        ]
+      },
+      "data": [
+        "2014_2015_solicitudes_gasolina.csv"
+      ],
+      "name": "2014_2015_solicitudes_gasolina",
+      "mediatype": "text/csv",
+      "format": "CSV"
+    },
+    {
+      "schema": {
+        "fields": [
+          {
+            "description": "Año",
+            "format": "YYYY",
+            "label": "Año",
+            "type": "date",
+            "id": "Año",
+            "name": "Año"
+          },
+          {
+            "description": "Estado",
+            "label": "Estado",
+            "type": "string",
+            "id": "Estado",
+            "name": "Estado"
+          },
+          {
+            "description": "Puerto",
+            "label": "Puerto",
+            "type": "string",
+            "id": "Puerto",
+            "name": "Puerto"
+          },
+          {
+            "description": "Beneficiario",
+            "label": "Beneficiario",
+            "type": "string",
+            "id": "Beneficiario",
+            "name": "Beneficiario"
+          },
+          {
+            "description": "RNPA",
+            "label": "RNPA",
+            "type": "string",
+            "id": "RNPA",
+            "name": "RNPA"
+          },
+          {
+            "description": "Embarcación",
+            "label": "Embarcación",
+            "type": "string",
+            "id": "Embarcación",
+            "name": "Embarcación"
+          },
+          {
+            "description": "Monto_aprobado",
+            "label": "Monto_aprobado",
+            "type": "string",
+            "id": "Monto_aprobado",
+            "name": "Monto_aprobado"
+          },
+          {
+            "description": "Pagado",
+            "label": "Pagado",
+            "type": "string",
+            "id": "Pagado",
+            "name": "Pagado"
+          },
+          {
+            "description": "2014_nov_dic_pasivos",
+            "label": "2014_nov_dic_pasivos",
+            "type": "string",
+            "id": "2014_nov_dic_pasivos",
+            "name": "2014_nov_dic_pasivos"
+          },
+          {
+            "description": "2014_enero_marzo_pasivos",
+            "label": "2014_enero_marzo_pasivos",
+            "type": "string",
+            "id": "2014_enero_marzo_pasivos",
+            "name": "2014_enero_marzo_pasivos"
+          },
+          {
+            "description": "desistido",
+            "label": "desistido",
+            "type": "string",
+            "id": "desistido",
+            "name": "desistido"
+          },
+          {
+            "description": "acta_administrativa",
+            "label": "acta_administrativa",
+            "type": "string",
+            "id": "acta_administrativa",
+            "name": "acta_administrativa"
+          },
+          {
+            "description": "reintegro",
+            "label": "reintegro",
+            "type": "string",
+            "id": "reintegro",
+            "name": "reintegro"
+          },
+          {
+            "description": "pdte_comprobar_pago",
+            "label": "pdte_comprobar_pago",
+            "type": "string",
+            "id": "pdte_comprobar_pago",
+            "name": "pdte_comprobar_pago"
+          },
+          {
+            "description": "",
+            "label": "",
+            "type": "string",
+            "id": "",
+            "name": ""
+          },
+          {
+            "description": "",
+            "label": "",
+            "type": "string",
+            "id": "",
+            "name": ""
+          }
+        ]
+      },
+      "data": [
+        "2014_beneficiarios_modernizacion_embarcaciones_mayores.csv"
+      ],
+      "name": "2014_beneficiarios_modernizacion_embarcaciones_mayores",
+      "mediatype": "text/csv",
+      "format": "CSV"
+    },
+    {
+      "schema": {
+        "fields": [
+          {
+            "description": "Año",
+            "format": "YYYY",
+            "label": "Año",
+            "type": "date",
+            "id": "Año",
+            "name": "Año"
+          },
+          {
+            "description": "Estado",
+            "label": "Estado",
+            "type": "string",
+            "id": "Estado",
+            "name": "Estado"
+          },
+          {
+            "description": "Puerto",
+            "label": "Puerto",
+            "type": "string",
+            "id": "Puerto",
+            "name": "Puerto"
+          },
+          {
+            "description": "Beneficiario",
+            "label": "Beneficiario",
+            "type": "string",
+            "id": "Beneficiario",
+            "name": "Beneficiario"
+          },
+          {
+            "description": "RNPA",
+            "label": "RNPA",
+            "type": "string",
+            "id": "RNPA",
+            "name": "RNPA"
+          },
+          {
+            "description": "Embarcación",
+            "label": "Embarcación",
+            "type": "string",
+            "id": "Embarcación",
+            "name": "Embarcación"
+          },
+          {
+            "description": "Monto_total",
+            "label": "Monto_total",
+            "type": "string",
+            "id": "Monto_total",
+            "name": "Monto_total"
+          },
+          {
+            "description": "Aportacion_productor",
+            "label": "Aportacion_productor",
+            "type": "string",
+            "id": "Aportacion_productor",
+            "name": "Aportacion_productor"
+          },
+          {
+            "description": "Aportacion_conapesca",
+            "label": "Aportacion_conapesca",
+            "type": "string",
+            "id": "Aportacion_conapesca",
+            "name": "Aportacion_conapesca"
+          },
+          {
+            "description": "pagado_por_concepto",
+            "label": "pagado_por_concepto",
+            "type": "string",
+            "id": "pagado_por_concepto",
+            "name": "pagado_por_concepto"
+          },
+          {
+            "description": "pagado_reembolso",
+            "label": "pagado_reembolso",
+            "type": "string",
+            "id": "pagado_reembolso",
+            "name": "pagado_reembolso"
+          },
+          {
+            "description": "pasivos",
+            "label": "pasivos",
+            "type": "string",
+            "id": "pasivos",
+            "name": "pasivos"
+          },
+          {
+            "description": "desistido",
+            "label": "desistido",
+            "type": "string",
+            "id": "desistido",
+            "name": "desistido"
+          },
+          {
+            "description": "saldo",
+            "label": "saldo",
+            "type": "string",
+            "id": "saldo",
+            "name": "saldo"
+          }
+        ]
+      },
+      "data": [
+        "2015_beneficiarios_modernizacion_embarcaciones_mayores.csv"
+      ],
+      "name": "2015_beneficiarios_modernizacion_embarcaciones_mayores",
+      "mediatype": "text/csv",
+      "format": "CSV"
+    },
+    {
+      "schema": {
+        "fields": [
+          {
+            "description": "Componente",
+            "label": "Componente",
+            "type": "string",
+            "id": "Componente",
+            "name": "Componente"
+          },
+          {
+            "description": "Año",
+            "format": "YYYY",
+            "label": "Año",
+            "type": "date",
+            "id": "Año",
+            "name": "Año"
+          },
+          {
+            "description": "Beneficiario",
+            "label": "Beneficiario",
+            "type": "string",
+            "id": "Beneficiario",
+            "name": "Beneficiario"
+          },
+          {
+            "description": "RNPA",
+            "label": "RNPA",
+            "type": "string",
+            "id": "RNPA",
+            "name": "RNPA"
+          },
+          {
+            "description": "Estado",
+            "label": "Estado",
+            "type": "string",
+            "id": "Estado",
+            "name": "Estado"
+          },
+          {
+            "description": "Municipio",
+            "label": "Municipio",
+            "type": "string",
+            "id": "Municipio",
+            "name": "Municipio"
+          },
+          {
+            "description": "Localidad",
+            "label": "Localidad",
+            "type": "string",
+            "id": "Localidad",
+            "name": "Localidad"
+          },
+          {
+            "description": "Monto_federal",
+            "label": "Monto_federal",
+            "type": "string",
+            "id": "Monto_federal",
+            "name": "Monto_federal"
+          },
+          {
+            "description": "Monto_estatal",
+            "label": "Monto_estatal",
+            "type": "string",
+            "id": "Monto_estatal",
+            "name": "Monto_estatal"
+          },
+          {
+            "description": "",
+            "label": "",
+            "type": "string",
+            "id": "",
+            "name": ""
+          }
+        ]
+      },
+      "data": [
+        "beneficiarios_embarcaciones_menores.csv"
+      ],
+      "name": "beneficiarios_embarcaciones_menores",
+      "mediatype": "text/csv",
+      "format": "CSV"
+    },
+    {
+      "schema": {
+        "fields": [
+          {
+            "description": "main_ID",
+            "label": "main_ID",
+            "type": "integer",
+            "id": "main_ID",
+            "name": "main_ID"
+          },
+          {
+            "description": "Año",
+            "format": "YYYY",
+            "label": "Año",
+            "type": "date",
+            "id": "Año",
+            "name": "Año"
+          },
+          {
+            "description": "Beneficiario",
+            "label": "Beneficiario",
+            "type": "string",
+            "id": "Beneficiario",
+            "name": "Beneficiario"
+          },
+          {
+            "description": "RFC",
+            "label": "RFC",
+            "type": "string",
+            "id": "RFC",
+            "name": "RFC"
+          },
+          {
+            "description": "RNPA",
+            "label": "RNPA",
+            "type": "string",
+            "id": "RNPA",
+            "name": "RNPA"
+          },
+          {
+            "description": "Estado",
+            "label": "Estado",
+            "type": "string",
+            "id": "Estado",
+            "name": "Estado"
+          },
+          {
+            "description": "Municipio",
+            "label": "Municipio",
+            "type": "string",
+            "id": "Municipio",
+            "name": "Municipio"
+          },
+          {
+            "description": "Localidad",
+            "label": "Localidad",
+            "type": "string",
+            "id": "Localidad",
+            "name": "Localidad"
+          },
+          {
+            "description": "Monto",
+            "label": "Monto",
+            "type": "string",
+            "id": "Monto",
+            "name": "Monto"
+          }
+        ]
+      },
+      "data": [
+        "2011_2014_beneficiarios_diesel.csv"
+      ],
+      "name": "diesel",
+      "mediatype": "text/csv",
+      "format": "CSV"
+    },
+    {
+      "schema": {
+        "fields": [
+          {
+            "description": "main_ID",
+            "label": "main_ID",
+            "type": "integer",
+            "id": "main_ID",
+            "name": "main_ID"
+          },
+          {
+            "description": "Año",
+            "format": "YYYY",
+            "label": "Año",
+            "type": "date",
+            "id": "Año",
+            "name": "Año"
+          },
+          {
+            "description": "Beneficiario",
+            "label": "Beneficiario",
+            "type": "string",
+            "id": "Beneficiario",
+            "name": "Beneficiario"
+          },
+          {
+            "description": "RNPA",
+            "label": "RNPA",
+            "type": "string",
+            "id": "RNPA",
+            "name": "RNPA"
+          },
+          {
+            "description": "Estado",
+            "label": "Estado",
+            "type": "string",
+            "id": "Estado",
+            "name": "Estado"
+          },
+          {
+            "description": "Municipio",
+            "label": "Municipio",
+            "type": "string",
+            "id": "Municipio",
+            "name": "Municipio"
+          },
+          {
+            "description": "Localidad",
+            "label": "Localidad",
+            "type": "string",
+            "id": "Localidad",
+            "name": "Localidad"
+          },
+          {
+            "description": "Tipo_monto",
+            "label": "Tipo_monto",
+            "type": "string",
+            "id": "Tipo_monto",
+            "name": "Tipo_monto"
+          },
+          {
+            "description": "Monto_apoyado",
+            "label": "Monto_apoyado",
+            "type": "integer",
+            "id": "Monto_apoyado",
+            "name": "Monto_apoyado"
+          }
+        ]
+      },
+      "data": [
+        "2011_beneficiarios_electricos.csv"
+      ],
+      "name": "electricos",
+      "mediatype": "text/csv",
+      "format": "CSV"
+    },
+    {
+      "schema": {
+        "fields": [
+          {
+            "description": "main_ID",
+            "label": "main_ID",
+            "type": "string",
+            "id": "main_ID",
+            "name": "main_ID"
+          },
+          {
+            "description": "Año",
+            "format": "YYYY",
+            "label": "Año",
+            "type": "date",
+            "id": "Año",
+            "name": "Año"
+          },
+          {
+            "description": "Beneficiario",
+            "label": "Beneficiario",
+            "type": "string",
+            "id": "Beneficiario",
+            "name": "Beneficiario"
+          },
+          {
+            "description": "RFC",
+            "label": "RFC",
+            "type": "string",
+            "id": "RFC",
+            "name": "RFC"
+          },
+          {
+            "description": "RNPA",
+            "label": "RNPA",
+            "type": "string",
+            "id": "RNPA",
+            "name": "RNPA"
+          },
+          {
+            "description": "Estado",
+            "label": "Estado",
+            "type": "string",
+            "id": "Estado",
+            "name": "Estado"
+          },
+          {
+            "description": "Municipio",
+            "label": "Municipio",
+            "type": "string",
+            "id": "Municipio",
+            "name": "Municipio"
+          },
+          {
+            "description": "Localidad",
+            "label": "Localidad",
+            "type": "string",
+            "id": "Localidad",
+            "name": "Localidad"
+          },
+          {
+            "description": "Monto",
+            "label": "Monto",
+            "type": "string",
+            "id": "Monto",
+            "name": "Monto"
+          }
+        ]
+      },
+      "data": [
+        "2011_2015_beneficiarios_gasolina.csv"
+      ],
+      "name": "gasolina",
+      "mediatype": "text/csv",
+      "format": "CSV"
+    },
+    {
+      "schema": {
+        "fields": [
+          {
+            "description": "Año",
+            "format": "YYYY",
+            "label": "Año",
+            "type": "date",
+            "id": "Año",
+            "name": "Año"
+          },
+          {
+            "description": "Beneficiario",
+            "label": "Beneficiario",
+            "type": "string",
+            "id": "Beneficiario",
+            "name": "Beneficiario"
+          },
+          {
+            "description": "RNPA",
+            "label": "RNPA",
+            "type": "string",
+            "id": "RNPA",
+            "name": "RNPA"
+          },
+          {
+            "description": "Nombre_proyecto",
+            "label": "Nombre_proyecto",
+            "type": "string",
+            "id": "Nombre_proyecto",
+            "name": "Nombre_proyecto"
+          },
+          {
+            "description": "Tipo_apoyo",
+            "label": "Tipo_apoyo",
+            "type": "string",
+            "id": "Tipo_apoyo",
+            "name": "Tipo_apoyo"
+          },
+          {
+            "description": "Especie",
+            "label": "Especie",
+            "type": "string",
+            "id": "Especie",
+            "name": "Especie"
+          },
+          {
+            "description": "Estado",
+            "label": "Estado",
+            "type": "string",
+            "id": "Estado",
+            "name": "Estado"
+          },
+          {
+            "description": "Municipio",
+            "label": "Municipio",
+            "type": "string",
+            "id": "Municipio",
+            "name": "Municipio"
+          },
+          {
+            "description": "Localidad",
+            "label": "Localidad",
+            "type": "string",
+            "id": "Localidad",
+            "name": "Localidad"
+          },
+          {
+            "description": "Monto_federal",
+            "label": "Monto_federal",
+            "type": "string",
+            "id": "Monto_federal",
+            "name": "Monto_federal"
+          }
+        ]
+      },
+      "data": [
+        "integral.csv"
+      ],
+      "name": "integral",
+      "mediatype": "text/csv",
+      "format": "CSV"
+    },
+    {
+      "schema": {
+        "fields": [
+          {
+            "description": "Año",
+            "format": "YYYY",
+            "label": "Año",
+            "type": "date",
+            "id": "Año",
+            "name": "Año"
+          },
+          {
+            "description": "Beneficiario",
+            "label": "Beneficiario",
+            "type": "string",
+            "id": "Beneficiario",
+            "name": "Beneficiario"
+          },
+          {
+            "description": "RNPA",
+            "label": "RNPA",
+            "type": "string",
+            "id": "RNPA",
+            "name": "RNPA"
+          },
+          {
+            "description": "Estado",
+            "label": "Estado",
+            "type": "string",
+            "id": "Estado",
+            "name": "Estado"
+          },
+          {
+            "description": "Municipio",
+            "label": "Municipio",
+            "type": "string",
+            "id": "Municipio",
+            "name": "Municipio"
+          },
+          {
+            "description": "Localidad",
+            "label": "Localidad",
+            "type": "string",
+            "id": "Localidad",
+            "name": "Localidad"
+          },
+          {
+            "description": "Monto_federal",
+            "label": "Monto_federal",
+            "type": "string",
+            "id": "Monto_federal",
+            "name": "Monto_federal"
+          },
+          {
+            "description": "Monto_estatal",
+            "label": "Monto_estatal",
+            "type": "string",
+            "id": "Monto_estatal",
+            "name": "Monto_estatal"
+          }
+        ]
+      },
+      "data": [
+        "motores.csv"
+      ],
+      "name": "motores",
+      "mediatype": "text/csv",
+      "format": "CSV"
+    },
+    {
+      "schema": {
+        "fields": [
+          {
+            "description": "Año",
+            "format": "YYYY",
+            "label": "Año",
+            "type": "date",
+            "id": "Año",
+            "name": "Año"
+          },
+          {
+            "description": "Beneficiario",
+            "label": "Beneficiario",
+            "type": "string",
+            "id": "Beneficiario",
+            "name": "Beneficiario"
+          },
+          {
+            "description": "RNPA",
+            "label": "RNPA",
+            "type": "string",
+            "id": "RNPA",
+            "name": "RNPA"
+          },
+          {
+            "description": "Especie",
+            "label": "Especie",
+            "type": "string",
+            "id": "Especie",
+            "name": "Especie"
+          },
+          {
+            "description": "Estado",
+            "label": "Estado",
+            "type": "string",
+            "id": "Estado",
+            "name": "Estado"
+          },
+          {
+            "description": "Municipio",
+            "label": "Municipio",
+            "type": "string",
+            "id": "Municipio",
+            "name": "Municipio"
+          },
+          {
+            "description": "Localidad",
+            "label": "Localidad",
+            "type": "string",
+            "id": "Localidad",
+            "name": "Localidad"
+          },
+          {
+            "description": "Monto_federal",
+            "label": "Monto_federal",
+            "type": "string",
+            "id": "Monto_federal",
+            "name": "Monto_federal"
+          }
+        ]
+      },
+      "data": [
+        "pesca.csv"
+      ],
+      "name": "pesca",
+      "mediatype": "text/csv",
+      "format": "CSV"
+    },
+    {
+      "schema": {
+        "fields": [
+          {
+            "description": "Año",
+            "format": "YYYY",
+            "label": "Año",
+            "type": "date",
+            "id": "Año",
+            "name": "Año"
+          },
+          {
+            "description": "Beneficiario",
+            "label": "Beneficiario",
+            "type": "string",
+            "id": "Beneficiario",
+            "name": "Beneficiario"
+          },
+          {
+            "description": "RNPA",
+            "label": "RNPA",
+            "type": "string",
+            "id": "RNPA",
+            "name": "RNPA"
+          },
+          {
+            "description": "Nombre_proyecto",
+            "label": "Nombre_proyecto",
+            "type": "string",
+            "id": "Nombre_proyecto",
+            "name": "Nombre_proyecto"
+          },
+          {
+            "description": "Tipo_proyecto",
+            "label": "Tipo_proyecto",
+            "type": "string",
+            "id": "Tipo_proyecto",
+            "name": "Tipo_proyecto"
+          },
+          {
+            "description": "Especie",
+            "label": "Especie",
+            "type": "string",
+            "id": "Especie",
+            "name": "Especie"
+          },
+          {
+            "description": "Estado",
+            "label": "Estado",
+            "type": "string",
+            "id": "Estado",
+            "name": "Estado"
+          },
+          {
+            "description": "Municipio",
+            "label": "Municipio",
+            "type": "string",
+            "id": "Municipio",
+            "name": "Municipio"
+          },
+          {
+            "description": "Localidad",
+            "label": "Localidad",
+            "type": "string",
+            "id": "Localidad",
+            "name": "Localidad"
+          },
+          {
+            "description": "Monto",
+            "label": "Monto",
+            "type": "string",
+            "id": "Monto",
+            "name": "Monto"
+          }
+        ]
+      },
+      "data": [
+        "reconversion.csv"
+      ],
+      "name": "reconversion",
+      "mediatype": "text/csv",
+      "format": "CSV"
+    },
+    {
+      "schema": {
+        "fields": [
+          {
+            "description": "Componente",
+            "label": "Componente",
+            "type": "string",
+            "id": "Componente",
+            "name": "Componente"
+          },
+          {
+            "description": "Año",
+            "format": "YYYY",
+            "label": "Año",
+            "type": "date",
+            "id": "Año",
+            "name": "Año"
+          },
+          {
+            "description": "Estado",
+            "label": "Estado",
+            "type": "string",
+            "id": "Estado",
+            "name": "Estado"
+          },
+          {
+            "description": "Municipio",
+            "label": "Municipio",
+            "type": "string",
+            "id": "Municipio",
+            "name": "Municipio"
+          },
+          {
+            "description": "Localidad",
+            "label": "Localidad",
+            "type": "string",
+            "id": "Localidad",
+            "name": "Localidad"
+          },
+          {
+            "description": "Registradas",
+            "label": "Registradas",
+            "type": "string",
+            "id": "Registradas",
+            "name": "Registradas"
+          },
+          {
+            "description": "Apoyadas",
+            "label": "Apoyadas",
+            "type": "string",
+            "id": "Apoyadas",
+            "name": "Apoyadas"
+          }
+        ]
+      },
+      "data": [
+        "solicitudes_embarcaciones_menores.csv"
+      ],
+      "name": "solicitudes_embarcaciones_menores",
+      "mediatype": "text/csv",
+      "format": "CSV"
+    },
+    {
+      "schema": {
+        "fields": [
+          {
+            "description": "Año",
+            "format": "YYYY",
+            "label": "Año",
+            "type": "date",
+            "id": "Año",
+            "name": "Año"
+          },
+          {
+            "description": "Estado",
+            "label": "Estado",
+            "type": "string",
+            "id": "Estado",
+            "name": "Estado"
+          },
+          {
+            "description": "Municipio",
+            "label": "Municipio",
+            "type": "string",
+            "id": "Municipio",
+            "name": "Municipio"
+          },
+          {
+            "description": "Localidad",
+            "label": "Localidad",
+            "type": "string",
+            "id": "Localidad",
+            "name": "Localidad"
+          },
+          {
+            "description": "Recibidas",
+            "label": "Recibidas",
+            "type": "string",
+            "id": "Recibidas",
+            "name": "Recibidas"
+          },
+          {
+            "description": "Apoyadas",
+            "label": "Apoyadas",
+            "type": "string",
+            "id": "Apoyadas",
+            "name": "Apoyadas"
+          },
+          {
+            "description": "Monto",
+            "label": "Monto",
+            "type": "string",
+            "id": "Monto",
+            "name": "Monto"
+          }
+        ]
+      },
+      "data": [
+        "solicitudes_embaraciones_mayores.csv"
+      ],
+      "name": "solicitudes_embaraciones_mayores",
+      "mediatype": "text/csv",
+      "format": "CSV"
+    },
+    {
+      "schema": {
+        "fields": [
+          {
+            "description": "Año",
+            "format": "YYYY",
+            "label": "Año",
+            "type": "date",
+            "id": "Año",
+            "name": "Año"
+          },
+          {
+            "description": " Programa ",
+            "label": " Programa ",
+            "type": "string",
+            "id": " Programa ",
+            "name": " Programa "
+          },
+          {
+            "description": "Componente",
+            "label": "Componente",
+            "type": "string",
+            "id": "Componente",
+            "name": "Componente"
+          }
+        ]
+      },
+      "data": [
+        "sustitucion_motores.csv"
+      ],
+      "name": "sustitucion_motores",
+      "mediatype": "text/csv",
+      "format": "CSV"
+    }
+  ]
+}
