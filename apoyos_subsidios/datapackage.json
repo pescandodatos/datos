@@ -759,6 +759,13 @@
       "schema": {
         "fields": [
           {
+            "description": "main_ID",
+            "label": "main_ID",
+            "type": "integer",
+            "id": "main_ID",
+            "name": "main_ID"
+          },
+          {
             "description": "Año",
             "format": "YYYY",
             "label": "Año",
@@ -802,18 +809,18 @@
             "name": "Localidad"
           },
           {
-            "description": "Monto_federal",
-            "label": "Monto_federal",
+            "description": "Tipo_monto",
+            "label": "Tipo_monto",
             "type": "string",
-            "id": "Monto_federal",
-            "name": "Monto_federal"
+            "id": "Tipo_monto",
+            "name": "Tipo_monto"
           },
           {
-            "description": "Monto_estatal",
-            "label": "Monto_estatal",
-            "type": "string",
-            "id": "Monto_estatal",
-            "name": "Monto_estatal"
+            "description": "Monto_apoyado",
+            "label": "Monto_apoyado",
+            "type": "integer",
+            "id": "Monto_apoyado",
+            "name": "Monto_apoyado"
           }
         ]
       },
