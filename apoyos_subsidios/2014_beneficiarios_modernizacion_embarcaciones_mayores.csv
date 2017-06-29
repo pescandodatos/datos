@@ -1,4 +1,4 @@
-main_ID,Ano,Estado,Puerto,Beneficiario,Rnpa,Embarcación,Monto aprobado,Pagado,2014 Nov Dic Pasivos,2014 Enero Marzo Pasivos,Desistido,Acta Administrativa,Reintegro,Pdte Comprobar Pago
+main_ID,Ano,Estado,Puerto,Beneficiario,Rnpa,Embarcacion,Monto aprobado,Pagado,2014 Nov Dic Pasivos,2014 Enero Marzo Pasivos,Desistido,Acta Administrativa,Reintegro,Pdte Comprobar Pago
 1,2014,BAJA CALIFORNIA,ENSENADA,"PESQUERA SAGAX, S.A. DE C.V.",203015102,JUANITO DE CADIZ,1000000,1000000,,,,,,
 2,2014,BAJA CALIFORNIA,ENSENADA,"CORPORACION DE ATUNEROS DE ENSENADA, S.A. DE C.V.",203015953,CENTAURO DEL NORTE,173874.87,,173874.88,,,,,0.01
 3,2014,BAJA CALIFORNIA,ENSENADA,"CORPORACION DE ATUNEROS DE ENSENADA, S.A. DE C.V.",203015953,EL GLADIADOR,479494.87,,,,479494.87,,,
