@@ -825,7 +825,7 @@
         ]
       },
       "data": [
-        "motores.csv"
+        "2008_2012_beneficiarios_motores.csv"
       ],
       "name": "motores",
       "mediatype": "text/csv",
@@ -987,6 +987,13 @@
       "schema": {
         "fields": [
           {
+            "description": "main_ID",
+            "label": "main_ID",
+            "type": "integer",
+            "id": "main_ID",
+            "name": "main_ID"
+          },
+          {
             "description": "Componente",
             "label": "Componente",
             "type": "string",
@@ -1039,7 +1046,7 @@
         ]
       },
       "data": [
-        "solicitudes_embarcaciones_menores.csv"
+        "2014_2015_solicitudes_embarcaciones_menores.csv"
       ],
       "name": "solicitudes_embarcaciones_menores",
       "mediatype": "text/csv",
