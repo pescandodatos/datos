@@ -770,8 +770,8 @@
             "format": "YYYY",
             "label": "Año",
             "type": "date",
-            "id": "Año",
-            "name": "Año"
+            "id": "Ano",
+            "name": "Ano"
           },
           {
             "description": "Beneficiario",
