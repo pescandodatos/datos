@@ -31,7 +31,7 @@ def main():
     new_embarcaciones = embarcaciones_activos.merge(unidades_economicas, how='left', on='RNPA_UNIDAD_ECONOMICA', left_on=None, right_on=None, left_index=False, right_index=False, sort=False, suffixes=('', '_ua'), copy=True, indicator=False)
 
 
-    new_embarcaciones.to_csv('embarcaciones_detalles.csv', encoding='utf-8')
+    new_embarcaciones.to_csv('embarcaciones_detalles.csv', sep= ',', encoding='utf-8')
 
 
 if __name__ == '__main__':
