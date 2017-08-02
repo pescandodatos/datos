@@ -3,6 +3,8 @@
 
 import pandas
 
+# PROCESO de unir las embarcaciones activas con las unidades economicas por el rnpa
+
 # embarcaciones
 # activos.csv
 # RNPA_ACTIVO,NOMBRE_EMBARCACION,TIPO,MUNICIPIO,LOCALIDAD,ESTADO,ANO_CONSTRUCCION
