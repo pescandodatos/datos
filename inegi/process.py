@@ -20,11 +20,10 @@ import sys
 # NOM_LOC: nombre de la localidad
 
 def main():
-    print "ACA-1"
     # get inegi data
     inegi_csv = 'ARCH445.CSV'
     inegi = pandas.read_csv(inegi_csv)
-    print "ACA0"
+
     # get file to merge
     # get field for the NOM_LOC
 
@@ -43,14 +42,12 @@ def main():
     csv_file = args.csv
     new_csv_file = '_'.join([csv_file, 'inegi.csv'])
 
-    print "ACA1"
     estado = args.estado
     municipio = args.municipio
     localidad = args.localidad
-    print "ACA2"
+
     data_to_merge = pandas.read_csv(csv_file)
 
-    print "ACA3"
     # Merging data into the inegi data
     try:
         enriched_data = data_to_merge.merge(inegi, how='left', left_on=[estado,municipio,localidad], right_on=['NOM_ENT','NOM_MUN','NOM_LOC'], left_index=False, right_index=False, sort=False, suffixes=('', '_a'), copy=True, indicator=False)
