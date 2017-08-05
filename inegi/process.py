@@ -26,9 +26,8 @@ import sys
 
 def main():
     # get inegi data
-    inegi_csv = 'ARCH445.CSV'
-    inegi = pandas.read_csv(inegi_csv)
-    inegi.apply(lambda x: x.astype(str).str.upper())
+    inegi_csv = 'inegi.csv'
+    inegi = pandas.read_csv(inegi_csv, encoding='utf-8')
 
     # get file to merge
     # get field for the NOM_LOC
@@ -41,6 +40,8 @@ def main():
     parser.add_argument('--estado', help='el campo que tiene el nombre del estado')
     parser.add_argument('--municipio', help='el campo que tiene el nombre del municipio')
     parser.add_argument('--localidad', help='el campo que tiene el nombre de la localidad')
+    parser.add_argument('--inegi', help='el nuevo campo donde agregar el codigo de inegi')
+    
 
     args = parser.parse_args()
 
@@ -56,17 +57,36 @@ def main():
     municipio = args.municipio
     localidad = args.localidad
 
+    new_column = args.inegi
+
+    # rename columns
     inegi[estado] = inegi['NOM_ENT']
     inegi[municipio] = inegi['NOM_MUN']
     inegi[localidad] = inegi['NOM_LOC']
 
+    # UpperCase to everything & select only columns that we need
+    clean_inegi = inegi[[estado, municipio, localidad, 'CVE_ENT', 'CVE_MUN', 'CVE_LOC']]
+    clean_inegi = clean_inegi.apply(lambda x: x.astype('unicode').str.upper())
+
+    inegi.set_index([estado, municipio, localidad])
+
     data_to_merge = pandas.read_csv(csv_file)
-    data_to_merge.apply(lambda x: x.astype(str).str.upper())
+    data_to_merge.apply(lambda x: x.astype('str').str.upper())
+    data_to_merge.set_index([estado, municipio, localidad])
 
     # Merging data into the inegi data
     try:
-        enriched_data = data_to_merge.merge(inegi, how='left', left_index=False, right_index=False, sort=False, suffixes=('', '_a'), copy=True, indicator=False)
-        enriched_data.to_csv(new_csv_file, encoding='utf-8')
+        enriched_data = data_to_merge.merge(clean_inegi, how='left')
+        
+        enriched_data[new_column] = enriched_data.CVE_ENT.str.cat(enriched_data.CVE_MUN.str.cat(enriched_data.CVE_LOC))
+
+        enriched_data.drop('CVE_ENT',1, inplace=True)  
+        enriched_data.drop('CVE_MUN',1, inplace=True)
+        enriched_data.drop('CVE_LOC',1, inplace=True)
+
+        enriched_data.to_csv(new_csv_file, sep=',', encoding='utf-8')
+
+
     except:
         e = sys.exc_info()[0]
         logging.warning("<p>LOG: error when merging data: %s</p>", e)
@@ -74,3 +94,6 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+
+#cell.cross("inegi", "ESTADO").cells["CVE_ENT"].value[0]
