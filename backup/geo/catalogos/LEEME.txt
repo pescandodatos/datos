@@ -1,0 +1,155 @@
+LEEME
+
+PRESENTACIÓN 
+
+Con la finalidad de coadyuvar al conocimiento del Territorio Nacional, el Instituto Nacional de Estadística  y Geografía  (INEGI), presenta el producto “MARCO GEOESTADÍSTICO, JUNIO 2017”.
+
+El “MARCO GEOESTADÍSTICO, JUNIO 2017”, se integra de archivos digitales en formato shape que representan las 32 Áreas Geoestadísticas Estatales (AGEE), 2,458 Áreas Geoestadísticas Municipales (AGEM), en las que se incluyen las 16 Demarcaciones de la Ciudad de México, 17 470 polígonos de las Áreas Geoestadísticas Básicas  Rurales(AGEB) , 49 460 Polígonos de localidades urbanas y rurales, 350 polígonos  del Territorio Insular (islas) y  255 001 Localidades rurales puntuales que no son amanzanadas y por lo tanto, no cuentan con un plano, cada elemento de estas capas cuenta con atributos de nombre y clave geoestadística.
+
+Los Límites Estatales y Municipales se componen en algunos de sus trazos de político-administrativos y en su mayoría son geoestadísticos. 
+	
+Varios trazos de límites estatales se compatibilizaron con los publicados en el “Atlas Situación Actual de la División Político–Administrativa Interestatal de los Estados Unidos Mexicanos”, este documento es producto de una recopilación y análisis de fuentes oficiales del Congreso de la Unión, de los Congresos Estatales y otras fuentes que describen estos límites. 
+
+Se  anexa  listado de Localidades  Urbanas y  Rurales que traspasan los Limites Políticos- Administrativos y/o Limites Geoestadísticos.
+
+La información se presenta en formatos shape con los nombres siguientes:
+
+             AREAS_GEOESTADISTICAS_ESTATALES 
+             AREAS_GEOESTADISTICAS_MUNICIPALES
+             AREAS_GEOESTADISTICAS_BASICAS_RURALES 
+             LOCALIDADES_RURALES_PUNTUALES
+             POLIGONOS_LOCALIDADES_URBANAS_Y_RURALES
+	     TERRITORIO_INSULAR
+
+
+AGEE
+Polígonos de Áreas Geoestadísticas Estatales 
+
+AGEM
+Polígonos de Áreas Geoestadísticas Municipales 
+
+AGEB
+Polígonos de Áreas Geoestadísticas Básicas Rurales
+
+LOCALIDADES RURALES PUNTUALES
+Puntos de ubicación de Localidades Rurales
+POLIGONOS_LOCALIDADES_URBANAS_Y_RURALES
+Polígonos de Localidades Urbanas y Rurales
+
+TERRITORIO INSULAR
+Polígonos de Isla 
+
+
+ESTRUCTURA DEL DBF ASOCIADO:
+
+					Campo		Tipo		Longitud
+AREAS_ GEOESTADISTICAS_ESTATALES
+				 	CVE_ENT		carácter	2
+					NOM_ENT		carácter	80
+			
+	
+
+AREAS_GEOESTADISTICAS_MUNICIPALES
+					CVE_ENT		carácter	2
+      CVE_MUN		carácter	3
+      NOM_MUN		carácter	110
+      
+AREAS_GEOESTADISTICAS_BASICAS_RURALES
+					CVE_ENT		carácter	2
+      CVE_MUN		carácter	3
+      CVE_AGEB		carácter	5
+
+
+LOCALIDADES_RURALES_PUNTUALES
+					CVE_ENT		carácter	2
+      CVE_MUN		carácter	3
+      CVE_LOC		carácter	4
+      CVE_AGEB		carácter	5
+      NOM_LOC		carácter	110
+      
+      
+POLIGONOS_LOCALIDADES_URBANAS_Y_RURALES
+					CVE_ENT		carácter	2
+      CVE_MUN		carácter	3
+      CVE_LOC		carácter	4
+      NOM_LOC		carácter	110
+      TIPO			carácter	1
+      
+
+TERRITORIO_INSULAR		CVE_ENT		carácter	2
+      CVE_MUN		carácter	3
+      CVE_AGEB		carácter	5
+      NOMBRE		carácter	110
+      
+      
+
+
+
+
+
+
+
+DOMINIO DE VALORES
+
+CVE_ENT: 	Es la clave geoestadística de la entidad Federativa que va del 01 que corresponde a Aguascalientes al 32 Zacatecas.
+
+CVE_MUN:	Es la clave geoestadística asignada a los municipios del 001 al último número municipio que tenga la entidad. 
+
+CVE_LOC: 	Es la clave geoestadística asignada a las localidades urbanas y rurales.
+
+CVE_AGEB:   Es la clave del Área Geoestadística Básica Rural asignada a nivel   municipio.
+
+NOM_ENT: 	Es el nombre de la entidad federativa.
+
+NOM_MUN: 	Es el nombre del municipio.
+
+NOM_LOC: 		Corresponde al  nombre de localidad urbana ó rural.
+
+NOMBRE: 	Es el nombre de la Isla.
+
+
+Al interior del CD la información se presenta de la siguiente manera:
+
+
+* Carpeta: “Conjunto de datos”, contiene en formato SHAPE:
+
+             AREAS_GEOESTADISTICAS_ESTATALES 
+             AREAS_GEOESTADISTICAS_MUNICIPALES
+             AREAS_GEOESTADISTICAS_BASICAS_RURALES 
+             LOCALIDADES_RURALES_PUNTUALES
+             POLIGONOS_LOCALIDADES_URBANAS_Y_RURALES
+		TERRITORIO_INSULAR
+
+* Carpeta: “Catálogos”, contiene LEEME, SINTESIS, DESCRIPCION.
+
+* Carpeta: “Metadatos”, contiene METADATOS.
+
+DEFINICIÓN DE MARCO GEOESTADÍSTICO
+
+Es el sistema único y de carácter nacional diseñado por el INEGI, para referir geográficamente la información estadística de los censos, las encuestas y los registros administrativos. De igual forma se entiende como  la división del país en Áreas Geoestadísticas con tres niveles de desagregación: Estatal (AGEE), Municipal o Delegacional (AGEM) y Básica (AGEB).
+
+PARÁMETROS CARTOGRÁFICOS
+
+Sistema de coordenadas proyectadas: MEXICO_ITRF_2008_LCC
+Cónica Conforme de Lambert (CCL)
+Dátum: ITRF2008.
+Elipsoide: GRS80.
+Meridiano origen: 102° 00’ 00’’ W.
+Latitud origen: 12° 00’ 00’’ N.
+Primer paralelo estándar: 17° 30’ N.
+Segundo paralelo estándar: 29° 30’ N.
+Falso Este: 2 500 000.
+Falso Norte: 0
+
+
+Para cualquier comentario, duda o aclaración respecto al producto, favor de dirigirse con:
+
+Ing. José Enrique Zavaleta Dorantes
+Enlace en Cartografia Geoestadística
+enrique.zavaleta@inegi.org.mx
+
+
+
+2
+
+

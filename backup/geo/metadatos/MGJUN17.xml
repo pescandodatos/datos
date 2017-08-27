@@ -1,0 +1,321 @@
+<?xml version = "1.0" encoding = "ISO-8859-1"?>
+<Metadata>
+<MD_DataIdentification>
+<title>MARCO GEOESTADÍSTICO, JUNIO 2017.</title>
+<purpose>Proporcionar a los diferentes usuarios de Marco Geoestadístico, internos y externos del instituto, un producto actualizado que permita referenciar geográficamente la información estadística nacional que se recopila a través de los censos, conteos, encuestas y registros administrativos, y los datos particulares de cada usuario externo, para su captación, almacenamiento, procesamiento, análisis y presentación de resultados. </purpose>
+<abstract>Archivo vectorial que integra un sistema único y de carácter nacional diseñado por el INEGI, el cual contiene las siguientes capas de información: 32 polígonos de las Áreas Geoestadísticas Estatales (AGEE), 2 458 polígonos de las Áreas Geoestadísticas Municipales (AGEM) en las que se incluyen las 16 Demarcaciones de la Ciudad de México, 17 470 polígonos de las Áreas Geoestadísticas Básicas Rurales (AGEB),  49 460 Polígonos de localidades urbanas y rurales, 350 polígonos del Territorio Insular (islas) y  255 001 Localidades rurales puntuales que no son amanzanadas y por lo tanto no cuentan con un plano. Cada elemento de estas capas cuenta con atributos de nombre y clave geoestadística.</abstract>
+<MD_DataIdentification_language>ES - Español.</MD_DataIdentification_language>
+<topicCategory>
+<principalTopic>11. Localización: Información posicional y servicios.  </principalTopic>
+<groupCategory>6. Grupo de datos de límites costeros, internacionales, estatales y municipales: Subdivisión de la Infraestructura de Datos Espaciales de México que representa las fronteras de los espacios territoriales contenedores de datos e información.</groupCategory>
+</topicCategory>
+<keyword>AGEB - Área Geoestadística Básica</keyword>
+<type>5. Tema: La palabra clave que identifica un tema o materia particular.</type>
+<keyword>AGEE - Área Geoestadística Estatal</keyword>
+<type>5. Tema: La palabra clave que identifica un tema o materia particular.</type>
+<keyword>AGEM - Área Geoestadística Municipal</keyword>
+<type>5. Tema: La palabra clave que identifica un tema o materia particular.</type>
+<keyword>Clave de Entidad Federativa</keyword>
+<type>5. Tema: La palabra clave que identifica un tema o materia particular.</type>
+<keyword>Clave de Municipio</keyword>
+<type>5. Tema: La palabra clave que identifica un tema o materia particular.</type>
+<keyword>Límite Geoestadístico</keyword>
+<type>5. Tema: La palabra clave que identifica un tema o materia particular.</type>
+<keyword>Límite Político-Administrativo</keyword>
+<type>5. Tema: La palabra clave que identifica un tema o materia particular.</type>
+<keyword>MGN - Marco Geoestadístico Nacional</keyword>
+<type>5. Tema: La palabra clave que identifica un tema o materia particular.</type>
+<keyword>Territorio Insular</keyword>
+<type>5. Tema: La palabra clave que identifica un tema o materia particular.</type>
+<keyword>Localidades Rurales Puntuales</keyword>
+<type>5. Tema: La palabra clave que identifica un tema o materia particular.</type>
+<thesaurusName>Manuales del Marco Geoestadístico Nacional</thesaurusName>
+<edition> </edition>
+<presentationForm>  5. Mapa digital: Mapa representado en formato raster o vector.</presentationForm>
+<CI_OnlineResource>
+<CI_OnlineResource_linkage>http://www.inegi.org.mx/</CI_OnlineResource_linkage>
+<CI_OnlineResource_description>Página web donde se encuentra la información para obtener el recurso en base a las políticas institucionales y centros de información autorizados. </CI_OnlineResource_description>
+</CI_OnlineResource>
+<maintenanceAndUpdateFrequency>  4. Mensualmente: Los datos se actualizan cada mes.</maintenanceAndUpdateFrequency>
+<MD_DataIdentification_characterSet>  4. Utf8: Formato de Transferencia UCS de tamaño variable de 8-bit, basado en ISO/IEC 10646.</MD_DataIdentification_characterSet>
+<graphfilename>MARCO GEOESTADÍSTICO, JUNIO 2017.</graphfilename>
+<specuse>USO 1 (INTERNO): Las áreas de Estadística y Geografía del INEGI utilizan la información del MGE como base para la realización de proyectos geográficos y estadísticos; con base en la división de las áreas geoestadísticas se hace la planeación de campo y se realizan los levantamientos censales y de encuestas. Se obtienen así datos con una adecuada referencia geográfica, que contribuyen a actualizar la información cualitativa y cuantitativa del país, de utilidad para Unidades del Estado y los sectores académicos y de investigación (información obtenida directamente con el área productora).
+
+USO 2 (EXTERNO): Usuarios como el Consejo Nacional de Población (CONAPO), el Instituto Nacional Electoral (INE), el Instituto Mexicano del Seguro Social (IMSS), la Secretaría de Desarrollo Social (SEDESOL), la Secretaría de Educación Pública (SEP), la Secretaría de Salud (SSA) y empresas privadas emplean el Marco Geoestadístico como marco de referencia geográfica y espacial en proyectos específicos para representar su información en el lugar correspondiente, con el fin de obtener resultados en materias como demografía, organización electoral, salud social, economía, sociología, etc., destinados a diseñadores de políticas y planeadores en los ámbitos de la Administración Pública y la iniciativa privada (información obtenida con base en las solicitudes de información por parte de los usuarios).</specuse>
+</MD_DataIdentification>
+<CI_Date>
+<Dates_Events>
+<date>2017-04-28</date>
+<dateType>1. Creación: Indicador  de la fecha que especifica cuando fue creado el recurso.</dateType>
+</Dates_Events>
+<Ad_Date>
+<date_creation>2017-06-29</date_creation>
+<date_begin></date_begin>
+<date_end></date_end>
+<inpname>Actualizaciones identificadas a abril de 2017</inpname>
+</Ad_Date>
+</CI_Date>
+<CI_ResponsibleParty>
+<CI_ResponsibleParty_individualName>Lic. José de Jesús Esquivel de la Rosa.</CI_ResponsibleParty_individualName>
+<CI_ResponsibleParty_organisationName>Instituto Nacional de Estadística y Geografía - INEGI.</CI_ResponsibleParty_organisationName>
+<CI_ResponsibleParty_positionName>Subdirector de Comercialización.</CI_ResponsibleParty_positionName>
+<CI_ResponsibleParty_voice>(449)9105300 Ext. 5301. Lada 01 800 111 46 34 (sin costo).</CI_ResponsibleParty_voice>
+<CI_ResponsibleParty_facsimile></CI_ResponsibleParty_facsimile>
+<CI_ResponsibleParty_deliveryPoint>Av. Héroe de Nacozari Sur Núm. 2301. Fracc. Jardines del Parque.</CI_ResponsibleParty_deliveryPoint>
+<CI_ResponsibleParty_city>Aguascalientes.</CI_ResponsibleParty_city>
+<CI_ResponsibleParty_administrativeArea>Aguascalientes.</CI_ResponsibleParty_administrativeArea>
+<CI_ResponsibleParty_postalCode>20276.</CI_ResponsibleParty_postalCode>
+<CI_ResponsibleParty_country>México.</CI_ResponsibleParty_country>
+<CI_ResponsibleParty_electronicMailAddress>atencion.usuarios@inegi.org.mx</CI_ResponsibleParty_electronicMailAddress>
+<CI_ResponsibleParty_linkage>http://www.inegi.org.mx/</CI_ResponsibleParty_linkage>
+<CI_ResponsibleParty_role>  5. Distribuidor: Parte que distribuye el recurso.</CI_ResponsibleParty_role>
+</CI_ResponsibleParty>
+<geographicElement>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>-118.366</westBoundLongitude>
+<eastBoundLongitude>-86.710</eastBoundLongitude>
+<southBoundLatitude>14.540</southBoundLatitude>
+<northBoundLatitude>32.718</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<spatialRepresentationType>1. Vector: Los datos vectoriales se utilizan para representar datos espaciales.</spatialRepresentationType>
+</geographicElement>
+<MD_ReferenceSystem>
+<ReferenceHorizontalSystem>
+<geograph>
+<latres></latres>
+<longres></longres>
+<geogunit></geogunit>
+</geograph>
+<planar>
+<mapprojn>
+<lambertc>
+<lambertc_stdparll>17.5</lambertc_stdparll>
+<lambertc_stdparll>29.5</lambertc_stdparll>
+<lambertc_longcm>-102.0</lambertc_longcm>
+<lambertc_latprjo>12.0</lambertc_latprjo>
+<lambertc_feast>2500000.0</lambertc_feast>
+<lambertc_fnorth>0.0</lambertc_fnorth>
+</lambertc>
+<mercatort>
+<mercatort_sfctrmer> </mercatort_sfctrmer>
+<mercatort_longcm> </mercatort_longcm>
+<mercatort_latprjo> </mercatort_latprjo>
+<mercatort_feast> </mercatort_feast>
+<mercatort_fnorth> </mercatort_fnorth>
+</mercatort>
+<mercator>
+<mercator_stdparll> </mercator_stdparll>
+<mercator_sfec> </mercator_sfec>
+<mercator_longcm> </mercator_longcm>
+<mercator_feast> </mercator_feast>
+<mercator_fnorth> </mercator_fnorth>
+</mercator>
+<tme>
+<tme_sfctrmer> </tme_sfctrmer>
+<tme_longcm> </tme_longcm>
+<tme_latprjo> </tme_latprjo>
+<tme_feast> </tme_feast>
+<tme_fnorth> </tme_fnorth>
+</tme>
+<anoth_proj_def>
+</anoth_proj_def>
+</mapprojn>
+<gridcoordinatessystem>
+<utm>
+<utm_zone></utm_zone>
+<utm_sfctrmer></utm_sfctrmer>
+<utm_longcm></utm_longcm>
+<utm_latprjo></utm_latprjo>
+<utm_feast></utm_feast>
+<utm_fnorth></utm_fnorth>
+</utm>
+</gridcoordinatessystem>
+<local_planar>
+<local_planar_desc></local_planar_desc>
+<local_planar_geo_inf></local_planar_geo_inf>
+</local_planar>
+<planci>
+<plance>Par coordenado.</plance>
+<coord_repres>
+<absres>0.00000001</absres>
+<ordres>0.00000001</ordres>
+</coord_repres>
+<distance_and_bearing_repres>
+<distance_res></distance_res>
+<bearing_res></bearing_res>
+<bearing_uni></bearing_uni>
+<ref_bearing_dir></ref_bearing_dir>
+<ref_bearing_mer></ref_bearing_mer>
+</distance_and_bearing_repres>
+<plandu>Metros.</plandu>
+</planci>
+</planar>
+<local_coordinates>
+<local_desc></local_desc>
+<local_geo_inf></local_geo_inf>
+</local_coordinates>
+<geodetic>
+<horizdn>ITRF08 época 2010.0.</horizdn>
+<ellips>Sistema Geodésico de Referencia de 1980 (GRS80).</ellips>
+<semiaxis>6378137.0</semiaxis>
+<denflat>298.2572221</denflat>
+</geodetic>
+</ReferenceHorizontalSystem>
+<ReferenceVerticalSystem>
+<altsys>
+<altdatum></altdatum>
+<altres></altres>
+<altunits></altunits>
+<altenc> </altenc>
+</altsys>
+<depthsys>
+<depthdn></depthdn>
+<depthres></depthres>
+<depthdu></depthdu>
+<depthem> </depthem>
+</depthsys>
+</ReferenceVerticalSystem>
+</MD_ReferenceSystem>
+<DQ_DataQuality>
+<DQ_Scope>
+<level>  5. Conjunto de datos espaciales: Información aplicada al conjunto de datos espaciales.</level>
+</DQ_Scope>
+<report>
+<DQ_Completeness>
+<DQ_Completeness_evalqualsubname>
+<DQ_Completeness_nameOfMeasure></DQ_Completeness_nameOfMeasure>
+<DQ_Completeness_measureDescription></DQ_Completeness_measureDescription>
+<DQ_Completeness_result>
+<DQ_Completeness_DQ_QuantitativeResult>
+<DQ_Completeness_valueUnit></DQ_Completeness_valueUnit>
+<DQ_Completeness_value></DQ_Completeness_value></DQ_Completeness_DQ_QuantitativeResult>
+</DQ_Completeness_result>
+</DQ_Completeness_evalqualsubname>
+</DQ_Completeness>
+<DQ_LogicConsistency>
+<DQ_LogicConsistency_evalqualsubname>
+<DQ_LogicConsistency_nameOfMeasure></DQ_LogicConsistency_nameOfMeasure>
+<DQ_LogicConsistency_measureDescription></DQ_LogicConsistency_measureDescription>
+<DQ_LogicConsistency_result>
+<DQ_LogicConsistency_DQ_QuantitativeResult>
+<DQ_LogicConsistency_valueUnit></DQ_LogicConsistency_valueUnit>
+<DQ_LogicConsistency_value></DQ_LogicConsistency_value></DQ_LogicConsistency_DQ_QuantitativeResult>
+</DQ_LogicConsistency_result>
+</DQ_LogicConsistency_evalqualsubname>
+</DQ_LogicConsistency>
+<PositionalAccuracy>
+<PositionalAccuracy_evalqualsubname>
+<PositionalAccuracy_nameOfMeasure></PositionalAccuracy_nameOfMeasure>
+<PositionalAccuracy_measureDescription></PositionalAccuracy_measureDescription>
+<PositionalAccuracy_result>
+<PositionalAccuracy_DQ_QuantitativeResult>
+<PositionalAccuracy_valueUnit></PositionalAccuracy_valueUnit>
+<PositionalAccuracy_value></PositionalAccuracy_value></PositionalAccuracy_DQ_QuantitativeResult>
+</PositionalAccuracy_result>
+</PositionalAccuracy_evalqualsubname>
+</PositionalAccuracy>
+<TemporalAccuracy>
+<TemporalAccuracy_evalqualsubname>
+<TemporalAccuracy_nameOfMeasure></TemporalAccuracy_nameOfMeasure>
+<TemporalAccuracy_measureDescription></TemporalAccuracy_measureDescription>
+<TemporalAccuracy_result>
+<TemporalAccuracy_DQ_QuantitativeResult>
+<TemporalAccuracy_valueUnit></TemporalAccuracy_valueUnit>
+<TemporalAccuracy_value></TemporalAccuracy_value></TemporalAccuracy_DQ_QuantitativeResult>
+</TemporalAccuracy_result>
+</TemporalAccuracy_evalqualsubname>
+</TemporalAccuracy>
+<ThematicAccuracy>
+<ThematicAccuracy_evalqualsubname>
+<ThematicAccuracy_nameOfMeasure></ThematicAccuracy_nameOfMeasure>
+<ThematicAccuracy_measureDescription></ThematicAccuracy_measureDescription>
+<ThematicAccuracy_result>
+<ThematicAccuracy_DQ_QuantitativeResult>
+<ThematicAccuracy_valueUnit></ThematicAccuracy_valueUnit>
+<ThematicAccuracy_value></ThematicAccuracy_value></ThematicAccuracy_DQ_QuantitativeResult>
+</ThematicAccuracy_result>
+</ThematicAccuracy_evalqualsubname>
+</ThematicAccuracy>
+</report>
+<LI_Lineage>
+<statement>Los insumos para este producto son las actualizaciones de los elementos que conforman el Marco Geoestadístico: Áreas Geoestadísticas Estatales (AGEE), Áreas Geoestadísticas Municipales (AGEM) Áreas Geoestadísticas Básicas Rurales (AGEB), Polígonos de Localidades Urbanas y Rurales, Territorio Insular y Localidades Rurales Puntuales, resultado de las actualizaciones identificadas al mes de abril 2017.   </statement>
+<LI_ProcessStep>
+<LI_ProcessStep_description>1) Actualización en campo. Previo y durante cualquier evento censal se realizan  recorridos y pruebas piloto de campo comparando los elementos del evento anterior contra lo observado, y así mantener la información del Marco Geoestadístico Nacional actualizada. 2) Validación. Todas las actualizaciones detectadas en campo son validadas aplicando la normatividad y los criterios vigentes para tal fin, para su posterior validación del archivo digital mediante las rutinas definidas con un margen de .001 para la validación de la generación entre sus límites (ver CONTROL DE CALIDAD). 3) Digitalización. Plasmar en un archivo vectorial las modificaciones detectadas en campo, con su respectiva validación, para tener un comparativo con el evento anterior reciente, mediante la conformación de polilíneas de los conjuntos estatales y municipales; es decir, de los trazos correspondientes a la información, que proceden para su actualización. 4) Elaboración de productos (impresos y digitales), exportación del Marco Geoestadístico Municipal a diferentes formatos de software, para su interpretación, según el uso requerido para el  usuario interno y externo. 5) Entrega a la dirección de difusión de los archivos productos para su comercialización; en estos archivos se plasma la información ya actualizada para que el área encargada permita la facilitación de la venta del producto. 6) Puesta a disposición de los usuarios, mediante sitios de internet web o a través del portal de la página del INEGI, según sea el caso requerido por cada usuario. 
+
+</LI_ProcessStep_description>
+<LI_ProcessStep_description>CONTROL DE CALIDAD: 
+CRITERIO: Consistencia lógica.
+SUBCRITERIO: Consistencia Topológica.
+AMBITO DE LA REVISIÓN: Los vectores que conforman el MARCO GEOESTADÍSTICO, JUNIO 2017.
+INSPECCIÓN: Completa.
+EXPLICACIÓN DE LA REVISIÓN: Mediante algoritmos y análisis vectorial se identificaron inconsistencias  tales como: confrontación de datos contra catálogos, coincidencia entre los diferentes límites, intersecciones, huecos entre elementos, correcta referencia espacial,   rasgos duplicados de manera física o tabular.
+NIVEL DE CONFORMIDAD DE CALIDAD: Para los vectoriales del Marco Geoestadístico, se aplicó una tolerancia de error predeterminado en la tecnología utilizada de .001 metros.
+RESULTADOS DE LA REVISIÓN: Se revisó la totalidad de los elementos, detectando errores propios de la actualización de límites geoestadísticos, siendo la solución una reinstrucción a las Entidades Federativas el verificar el límite y la corrección de los elementos.
+EVALUADORES: Dirección General de Geografía y Medio Ambiente, Dirección Adjunta de Información Geográfica Básica, Dirección de Límites y Marco Geoestadístico, Subdirección de Marco Geoestadístico. 
+OBSERVACIONES: Las inconsistencias encontradas se debieron al continuo crecimiento de las manchas urbanas.
+
+</LI_ProcessStep_description>
+<LI_ProcessStep_description>TECNOLOGIA EMPLEADA:  El software empleado en PC para la realización de la versión del MARCO GEOESTADÍSTICO, JUNIO 2017 fue el ArcGis 10.4 for desktop con tipo de licencia Advanced  </LI_ProcessStep_description>
+</LI_ProcessStep>
+<LI_Source>
+<LI_Source_description>FUENTE 1: Contiene Imágenes Spot Pancromática: 455-745nm,  2 bandas, blanco y negro, proyección: Lambert_Conformal_Conic_2SP, fecha del 04 de Marzo 2016, unidades de resolución: >1 (unitless), comprensión: JPEG2000. La información que se ofrece, se encuentra en proyección Cónica Conforme de Lámbert (CCL) Paralelos tipo 29º30 (N) y 17º30 (N). Latitud origen en el paralelo 12º (N) = 0 metros en las y (ordenadas) y la longitud origen en el meridiano 102º (W) = 2,500,000 metros en las x (absisas) y el sistema de referencia ITRF92. FUENTE: INEGI.
+
+FUENTE 2: MARCO GEOESTADÍSTICO, JUNIO 2016, contiene Áreas Geoestadísticas Estatales (AGEE), Áreas Geoestadísticas Municipales (AGEM), Áreas Geoestadísticas Básicas (AGEB), Polígonos de las Localidades Urbanas y Rurales, Polígonos del Territorio Insular y las Localidades Rurales Puntuales del País. FUENTE: INEGI  
+
+</LI_Source_description>
+</LI_Source>
+</LI_Lineage>
+</DQ_DataQuality>
+<Attributes>
+<schemaAscii>El Marco Geoestadístico es la división del país en Áreas Geoestadísticas con tres niveles de desagregación: Estatal (AGEE), Municipal (AGEM) y Básica (AGEB), Polígonos Urbanos y Rurales, Territorio Insular y Localidades Rurales Puntuales del País. Los Límites Estatales y Municipales se componen en algunos de sus trazos de límites político-administrativos, en su mayoría son límites geoestadísticos. Para esta versión se representa la siguiente información:
+
+Polígonos de Áreas Geoestadísticas Estatales, que representan la delimitación de cada Estado que integra la República Mexicana. 
+Polígonos de Áreas Geoestadísticas Municipales, que representan la delimitación de cada Municipio que integra una Entidad Federativa. 
+Polígonos de Áreas Geoestadísticas Básicas Rurales, que representan la delimitación de los AGEB que integran un Municipio.
+Puntos de ubicación de Localidades Rurales, que representan cada una de las localidades rurales correspondientes a los Estados.
+Polígonos de Localidades Urbanas y Rurales Geoestadísticas, que representan cada una de las localidades urbanas  correspondientes a los Estados.
+Polígonos de Isla, que representa cada una de las islas correspondientes al Territorio Mexicano.
+
+DOMINIO DE VALORES
+CVE_ENT: 	Es la clave geoestadística de la entidad Federativa que va del 01 que corresponde a Aguascalientes al 32 Zacatecas.
+CVE_MUN:	Es la clave geoestadística asignada a los municipios del 001 al último número del municipio que tenga la entidad. 
+CVE_LOC: 	Es la clave geoestadística asignada a las localidades rurales y urbanas.
+CVE_AGEB: 	Es la clave del Área Geoestadística Básica Rural asignada a nivel municipio.
+NOM_ENT: 	Es el nombre de la entidad federativa.
+NOM_MUN: 	Es el nombre del municipio.
+NOM_LOC: 	Corresponde al  nombre de localidad rural y urbana.
+NOMBRE: 	Es el nombre de la Isla.
+TIPO:		Indica si la localidad es Urbana (U) o Rural (R).</schemaAscii>
+<entity_detail>Manual del Marco Geoestadístico Nacional, disponible en la Subdirección del Marco Geoestadístico.</entity_detail>
+</Attributes>
+<MD_Distribution>
+<accessConstraints>8. Acceso al público a través de internet y los Centros de Información del Instituto Nacional de Estadística y Geografía - INEGI.</accessConstraints>
+<useConstraints>8. Ninguna.</useConstraints>
+<otherConstraints>El Instituto Nacional de Estadística y Geografía - INEGI no se hace responsable por el uso que usted le dé a los datos.</otherConstraints>
+<MD_Format>
+<name>Shape</name>
+<version>Arc Map 10.4</version>
+</MD_Format>
+</MD_Distribution>
+<Inf_Metadata>
+<metadataStandardName>ISO 19115 Información Geográfica - Metadatos (Norma Técnica para Metadatos).</metadataStandardName>
+<metadataStandardVersion>2003 (1.0).</metadataStandardVersion>
+<Inf_Metadata_language>ES - Español.</Inf_Metadata_language>
+<CI_ResponsibleParty>
+<Inf_Metadata_CI_ResponsibleParty_individualName>Lic. Rafael Arrioja Urzúa.</Inf_Metadata_CI_ResponsibleParty_individualName>
+<Inf_Metadata_CI_ResponsibleParty_organisationName>Instituto Nacional de Estadística y Geografía - INEGI.</Inf_Metadata_CI_ResponsibleParty_organisationName>
+<Inf_Metadata_CI_ResponsibleParty_positionName>Jefe del Departamento de Administración de Metadatos.</Inf_Metadata_CI_ResponsibleParty_positionName>
+<Inf_Metadata_CI_ResponsibleParty_voice>(449)9105300 Ext. 1750 y 5631.</Inf_Metadata_CI_ResponsibleParty_voice>
+<Inf_Metadata_CI_ResponsibleParty_facsimile>(449)4424145.</Inf_Metadata_CI_ResponsibleParty_facsimile>
+<Inf_Metadata_CI_ResponsibleParty_deliveryPoint>Av. Héroe de Nacozari Sur Núm. 2301. Fracc. Jardines del Parque.</Inf_Metadata_CI_ResponsibleParty_deliveryPoint>
+<Inf_Metadata_CI_ResponsibleParty_city>Aguascalientes.</Inf_Metadata_CI_ResponsibleParty_city>
+<Inf_Metadata_CI_ResponsibleParty_administrativeArea>Aguascalientes.</Inf_Metadata_CI_ResponsibleParty_administrativeArea>
+<Inf_Metadata_CI_ResponsibleParty_postalCode>20276</Inf_Metadata_CI_ResponsibleParty_postalCode>
+<Inf_Metadata_CI_ResponsibleParty_country>México</Inf_Metadata_CI_ResponsibleParty_country>
+<Inf_Metadata_CI_ResponsibleParty_electronicMailAddress>rafael.arrioja@inegi.org.mx</Inf_Metadata_CI_ResponsibleParty_electronicMailAddress>
+<Inf_Metadata_CI_ResponsibleParty_role>  7. Punto de contacto: Parte que puede ser contactada para informarse sobre el recurso o adquisición del mismo.</Inf_Metadata_CI_ResponsibleParty_role>
+</CI_ResponsibleParty>
+<dateStamp>2017-06-29</dateStamp>
+<Inf_Metadata_characterSet>  6. 8859parte1: ISO/IEC 8859-1, Tecnologías de la Información - Conjuntos de caracteres gráficos codificados de 8-bit por byte - Parte 1: Alfabeto Latino No.1.</Inf_Metadata_characterSet>
+</Inf_Metadata>
+</Metadata>

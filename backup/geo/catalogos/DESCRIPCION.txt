@@ -1,0 +1,27 @@
+   
+DESCRIPCIÓN DE OBRA
+
+“MARCO GEOESTADÍSTICO, JUNIO 2017”
+
+
+El “MARCO GEOESTADÍSTICO, JUNIO 2017”, se integra de archivos digitales en formato shape que representan las 32 Áreas Geoestadísticas Estatales (AGEE), 2,458 Áreas Geoestadísticas Municipales (AGEM), en las que se incluyen las 16 Demarcaciones de la Ciudad de México, 17 470 polígonos de las Áreas Geoestadísticas Básicas  Rurales (AGEB) , 49 460 Polígonos de localidades urbanas y rurales, 350 polígonos  del Territorio Insular (islas) y la representación puntual de 255 001 Localidades rurales puntuales que no son amanzanadas y por lo tanto, no cuentan con un plano. 
+
+Producto  de la actualización abril 2017.
+
+El Marco Geoestadístico es un Marco de referencia definido por el Instituto, con propósitos de captación, almacenamiento, procesamiento, análisis y presentación de resultados, de la información estadística nacional que se recopila a través de los censos y las encuestas. 
+ 
+El producto incluye la representación espacial en las  siguientes capas:
+ 
+             AREAS_GEOESTADISTICAS_ESTATALES 
+             AREAS_GEOESTADISTICAS_MUNICIPALES
+             AREAS_GEOESTADISTICAS_BASICAS_RURALES
+             LOCALIDADES_RURALES_PUNTUALES 
+             POLIGONOS_LOCALIDADES_URBANAS_Y_RURALES
+	     TERRITORIO_INSULAR
+
+		
+La información está en el sistema de coordenadas MEXICO_ITRF_2008_LCC referida a la proyección Cónica Conforme de Lambert  (CCL) y el datum es ITRF2008.
+ 
+
+
+

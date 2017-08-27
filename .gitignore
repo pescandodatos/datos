@@ -1,5 +1,7 @@
 *.xlsx
+.env
 .DS_Store
 .~lock*
 .vscode/
 envvar.conf
+*.log

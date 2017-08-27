@@ -1,0 +1,490 @@
+SECCIÓN 1. Identificación del conjunto de datos espaciales o producto:
+
+1.1 Título del conjunto de datos espaciales o producto: MARCO GEOESTADÍSTICO, JUNIO 2017.
+
+1.2 Propósito: Proporcionar a los diferentes usuarios de Marco Geoestadístico, internos y externos del instituto, un producto actualizado que permita referenciar geográficamente la información estadística nacional que se recopila a través de los censos, conteos, encuestas y registros administrativos, y los datos particulares de cada usuario externo, para su captación, almacenamiento, procesamiento, análisis y presentación de resultados. 
+
+1.3 Descripción del conjunto de datos espaciales o producto: Archivo vectorial que integra un sistema único y de carácter nacional diseñado por el INEGI, el cual contiene las siguientes capas de información: 32 polígonos de las Áreas Geoestadísticas Estatales (AGEE), 2 458 polígonos de las Áreas Geoestadísticas Municipales (AGEM) en las que se incluyen las 16 Demarcaciones de la Ciudad de México, 17 470 polígonos de las Áreas Geoestadísticas Básicas Rurales (AGEB),  49 460 Polígonos de localidades urbanas y rurales, 350 polígonos del Territorio Insular (islas) y  255 001 Localidades rurales puntuales que no son amanzanadas y por lo tanto no cuentan con un plano. Cada elemento de estas capas cuenta con atributos de nombre y clave geoestadística.
+
+1.4 Idioma del conjunto de datos espaciales o producto: ES - Español.
+
+1.5 Categoría del tema del conjunto de datos espaciales o producto: 
+
+     1.5.1 Tema principal del conjunto de datos espaciales o producto: 11. Localización: Información posicional y servicios.  
+
+     1.5.2 Grupo de datos del conjunto de datos espaciales o producto: 6. Grupo de datos de límites costeros, internacionales, estatales y municipales: Subdivisión de la Infraestructura de Datos Espaciales de México que representa las fronteras de los espacios territoriales contenedores de datos e información.
+
+1.6 Palabra clave: AGEB - Área Geoestadística Básica
+
+1.7 Tipo: 5. Tema: La palabra clave que identifica un tema o materia particular.
+
+1.6 Palabra clave: AGEE - Área Geoestadística Estatal
+
+1.7 Tipo: 5. Tema: La palabra clave que identifica un tema o materia particular.
+
+1.6 Palabra clave: AGEM - Área Geoestadística Municipal
+
+1.7 Tipo: 5. Tema: La palabra clave que identifica un tema o materia particular.
+
+1.6 Palabra clave: Clave de Entidad Federativa
+
+1.7 Tipo: 5. Tema: La palabra clave que identifica un tema o materia particular.
+
+1.6 Palabra clave: Clave de Municipio
+
+1.7 Tipo: 5. Tema: La palabra clave que identifica un tema o materia particular.
+
+1.6 Palabra clave: Límite Geoestadístico
+
+1.7 Tipo: 5. Tema: La palabra clave que identifica un tema o materia particular.
+
+1.6 Palabra clave: Límite Político-Administrativo
+
+1.7 Tipo: 5. Tema: La palabra clave que identifica un tema o materia particular.
+
+1.6 Palabra clave: MGN - Marco Geoestadístico Nacional
+
+1.7 Tipo: 5. Tema: La palabra clave que identifica un tema o materia particular.
+
+1.6 Palabra clave: Territorio Insular
+
+1.7 Tipo: 5. Tema: La palabra clave que identifica un tema o materia particular.
+
+1.6 Palabra clave: Localidades Rurales Puntuales
+
+1.7 Tipo: 5. Tema: La palabra clave que identifica un tema o materia particular.
+
+1.8 Nombre del tesauro: Manuales del Marco Geoestadístico Nacional
+
+1.9 Edición:  
+
+1.10 Forma de presentación de los datos espaciales:   5. Mapa digital: Mapa representado en formato raster o vector.
+
+1.11 Enlace en línea:
+
+     1.11.1 URL del recurso: http://www.inegi.org.mx/
+
+     1.11.2 Descripción del acceso al recurso: Página web donde se encuentra la información para obtener el recurso en base a las políticas institucionales y centros de información autorizados. 
+
+1.12 Frecuencia de mantenimiento y actualización:   4. Mensualmente: Los datos se actualizan cada mes.
+
+1.13 Conjunto de caracteres:   4. Utf8: Formato de Transferencia UCS de tamaño variable de 8-bit, basado en ISO/IEC 10646.
+
+1.14 Nombre del archivo gráfico: MARCO GEOESTADÍSTICO, JUNIO 2017.
+
+1.15 Uso específico: USO 1 (INTERNO): Las áreas de Estadística y Geografía del INEGI utilizan la información del MGE como base para la realización de proyectos geográficos y estadísticos; con base en la división de las áreas geoestadísticas se hace la planeación de campo y se realizan los levantamientos censales y de encuestas. Se obtienen así datos con una adecuada referencia geográfica, que contribuyen a actualizar la información cualitativa y cuantitativa del país, de utilidad para Unidades del Estado y los sectores académicos y de investigación (información obtenida directamente con el área productora).
+
+USO 2 (EXTERNO): Usuarios como el Consejo Nacional de Población (CONAPO), el Instituto Nacional Electoral (INE), el Instituto Mexicano del Seguro Social (IMSS), la Secretaría de Desarrollo Social (SEDESOL), la Secretaría de Educación Pública (SEP), la Secretaría de Salud (SSA) y empresas privadas emplean el Marco Geoestadístico como marco de referencia geográfica y espacial en proyectos específicos para representar su información en el lugar correspondiente, con el fin de obtener resultados en materias como demografía, organización electoral, salud social, economía, sociología, etc., destinados a diseñadores de políticas y planeadores en los ámbitos de la Administración Pública y la iniciativa privada (información obtenida con base en las solicitudes de información por parte de los usuarios).
+
+
+SECCIÓN 2. Fechas relacionadas con el conjunto de datos espaciales o producto:
+
+2.1 Fechas y eventos:
+
+     2.1.1 Fecha de referencia del conjunto de datos espaciales o producto: 2017-04-28
+
+     2.1.2 Tipo de fecha: 1. Creación: Indicador  de la fecha que especifica cuando fue creado el recurso.
+
+2.2 Fechas de los insumos tomados para la elaboración del producto o conjunto de datos espaciales:
+
+     2.2.1 Fecha de creación de los insumos: 2017-06-29
+
+     2.2.2 Fecha de inicio de verificación de campo: 
+
+     2.2.3 Fecha final de verificación de campo: 
+
+     2.2.4 Nombre del insumo: Actualizaciones identificadas a abril de 2017
+
+SECCIÓN 3. Unidad del estado responsable del conjunto de datos espaciales o producto:
+
+3.1 Nombre de la persona de contacto: Lic. José de Jesús Esquivel de la Rosa.
+
+3.2 Nombre de la organización: Instituto Nacional de Estadística y Geografía - INEGI.
+
+3.3 Puesto del contacto: Subdirector de Comercialización.
+
+3.4 Teléfono: (449)9105300 Ext. 5301. Lada 01 800 111 46 34 (sin costo).
+
+3.5 Fax: 
+
+3.6 Dirección: Av. Héroe de Nacozari Sur Núm. 2301. Fracc. Jardines del Parque.
+
+3.7 Ciudad: Aguascalientes.
+
+3.8 Área administrativa: Aguascalientes.
+
+3.9 Código postal: 20276.
+
+3.10 País: México.
+
+3.11 Dirección de correo electrónico del contacto: atencion.usuarios@inegi.org.mx
+
+3.12 Enlace en línea (dirección de Internet de referencia): http://www.inegi.org.mx/
+
+3.13 Rol:   5. Distribuidor: Parte que distribuye el recurso.
+
+
+SECCIÓN 4. Localización geográfica del conjunto de datos espaciales o producto:
+
+4.1 Localización geográfica del conjunto de datos espaciales o producto:
+
+     4.1.1 Coordenada límite al oeste: -118.366
+
+     4.1.2 Coordenada límite al este: -86.710
+
+     4.1.3 Coordenada límite al sur: 14.540
+
+     4.1.4 Coordenada límite al norte: 32.718
+
+4.2 Tipo de representación espacial: 1. Vector: Los datos vectoriales se utilizan para representar datos espaciales.
+
+SECCIÓN 5. Sistema de referencia:
+
+5.1 Sistema de Referencia Horizontal:
+
+     5.1.1 Coordenadas Geográficas:
+
+          5.1.1.1 Resolución de latitud:
+
+          5.1.1.2 Resolución de longitud:
+
+          5.1.1.3 Unidades de coordenadas geográficas:
+
+     5.1.2 Coordenadas Planas:
+
+          5.1.2.1 Proyección Cartográfica:
+
+               5.1.2.1.1 Cónica Conforme de Lambert:
+
+                    5.1.2.1.1.1 Paralelo estándar: 17.5
+
+                    5.1.2.1.1.1 Paralelo estándar: 29.5
+
+                    5.1.2.1.1.2 Longitud del meridiano central: -102.0
+
+                    5.1.2.1.1.3 Latitud del origen de proyección: 12.0
+
+                    5.1.2.1.1.4 Falso este: 2500000.0
+
+                    5.1.2.1.1.5 Falso norte: 0.0
+
+               5.1.2.1.2 Transversa de Mercator:
+
+                    5.1.2.1.2.1 Factor de escala en el meridiano central:  
+
+                    5.1.2.1.2.2 Longitud del meridiano central:  
+
+                    5.1.2.1.2.3 Latitud del origen de proyección:  
+
+                    5.1.2.1.2.4 Falso este:  
+
+                    5.1.2.1.2.5 Falso norte:  
+
+               5.1.2.1.3 Mercator:
+
+                    5.1.2.1.3.1 Paralelo estándar:  
+
+                    5.1.2.1.3.2 Factor de escala en el ecuador:  
+
+                    5.1.2.1.3.3 Longitud del meridiano central:  
+
+                    5.1.2.1.3.4 Falso este:  
+
+                    5.1.2.1.3.5 Falso norte:  
+
+               5.1.2.1.4 Transversa Modificada Ejidal:
+
+                    5.1.2.1.4.1 Factor de escala en el meridiano central:  
+
+                    5.1.2.1.4.2 Longitud del meridiano central:  
+
+                    5.1.2.1.4.3 Latitud del origen de proyección:  
+
+                    5.1.2.1.4.4 Falso este:  
+
+                    5.1.2.1.4.5 Falso norte:  
+
+               5.1.2.1.5 Definición de otra proyección: 
+
+          5.1.2.2 Sistema de Coordenadas de Cuadrícula:
+
+               5.1.2.2.1 Universal Transversa de Mercator:
+
+                    5.1.2.2.1.1 Número de zona UTM:
+
+                    5.1.2.2.1.2 Factor de escala en el meridiano central:
+
+                    5.1.2.2.1.3 Longitud del meridiano central:
+
+                    5.1.2.2.1.4 Latitud del origen de proyección:
+
+                    5.1.2.2.1.5 Falso este:
+
+                    5.1.2.2.1.6 Falso norte:
+
+          5.1.2.3 Plana Local:
+
+               5.1.2.3.1 Descripción de la Plana Local:
+
+               5.1.2.3.2 Información de Georreferencia de la Plana Local:
+
+          5.1.2.4 Información de coordenadas planas:
+
+               5.1.2.4.1 Método codificado de coordenada plana: Par coordenado.
+
+               5.1.2.4.2 Representación de coordenadas:
+
+                    5.1.2.4.2.1 Resolución de abscisa: 0.00000001
+
+                    5.1.2.4.2.2 Resolución de ordenada: 0.00000001
+
+               5.1.2.4.3 Representación de distancia y rumbo:
+
+                    5.1.2.4.3.1 Resolución de distancia:
+
+                    5.1.2.4.3.2 Resolución de rumbo:
+
+                    5.1.2.4.3.3 Unidades de rumbo:
+
+                    5.1.2.4.3.4 Dirección del rumbo de referencia:
+
+                    5.1.2.4.3.5 Meridiano del rumbo de referencia:
+
+               5.1.2.4.4 Unidades de distancia plana: Metros.
+
+     5.1.3 Coordenadas Locales:
+
+          5.1.3.1 Descripción Local:
+
+          5.1.3.2 Información de Georreferenciación Local:
+
+     5.1.4 Modelo geodésico:
+
+5.1.4.1 Nombre del datum horizontal: ITRF08 época 2010.0.
+
+          5.1.4.2 Nombre del elipsoide: Sistema Geodésico de Referencia de 1980 (GRS80).
+
+          5.1.4.3 Semieje mayor: 6378137.0
+
+          5.1.4.4 Factor de denominador de achatamiento: 298.2572221
+
+5.2 Sistema de Referencia Vertical:
+
+     5.2.1 Definición del sistema de altitud:
+
+          5.2.1.1 Nombre del datum de altitud: 
+
+          5.2.1.2 Resolución de altitud: 
+
+          5.2.1.3 Unidades de distancia de altitud: 
+
+          5.2.1.4 Método codificado de altitud:  
+
+     5.2.2 Definición del sistema de profundidad:
+
+          5.2.2.1 Nombre del datum de profundidad: 
+
+          5.2.2.2 Resolución de profundidad: 
+
+          5.2.2.3 Unidades de distancia de profundidad: 
+
+          5.2.2.4 Método codificado de profundidad:  
+
+
+SECCIÓN 6. Calidad de la información:
+
+6.1 Alcance o ámbito:
+
+     6.1.1 Nivel:   5. Conjunto de datos espaciales: Información aplicada al conjunto de datos espaciales.
+
+6.2 Reporte:
+
+     6.2.1 Completitud:
+
+          6.2.1.1 Nombre del subcriterio de calidad evaluado:
+
+               6.2.1.1.1 Nombre de la prueba:
+
+               6.2.1.1.2 Descripción de la prueba:
+
+               6.2.1.1.3 Resultado:
+
+                    6.2.1.1.3.1 Resultado cuantitativo:
+
+                         6.2.1.1.3.1.1 Unidad de valor:
+
+                         6.2.1.1.3.1.2 Valor:
+
+     6.2.2 Consistencia lógica:
+
+          6.2.2.1 Nombre del subcriterio de calidad evaluado:
+
+               6.2.2.1.1 Nombre de la prueba:
+
+               6.2.2.1.2 Descripción de la prueba:
+
+               6.2.2.1.3 Resultado:
+
+                    6.2.2.1.3.1 Resultado cuantitativo:
+
+                         6.2.2.1.3.1.1 Unidad de valor:
+
+                         6.2.2.1.3.1.2 Valor:
+
+     6.2.3 Exactitud posicional:
+
+          6.2.3.1 Nombre del subcriterio de calidad evaluado:
+
+               6.2.3.1.1 Nombre de la prueba:
+
+               6.2.3.1.2 Descripción de la prueba:
+
+               6.2.3.1.3 Resultado:
+
+                    6.2.3.1.3.1 Resultado cuantitativo:
+
+                         6.2.3.1.3.1.1 Unidad de valor:
+
+                         6.2.3.1.3.1.2 Valor:
+
+     6.2.4 Exactitud temporal:
+
+          6.2.4.1 Nombre del subcriterio de calidad evaluado:
+
+               6.2.4.1.1 Nombre de la prueba:
+
+               6.2.4.1.2 Descripción de la prueba:
+
+               6.2.4.1.3 Resultado:
+
+                    6.2.4.1.3.1 Resultado cuantitativo:
+
+                         6.2.4.1.3.1.1 Unidad de valor:
+
+                         6.2.4.1.3.1.2 Valor:
+
+     6.2.5 Exactitud temática:
+
+          6.2.5.1 Nombre del subcriterio de calidad evaluado:
+
+               6.2.5.1.1 Nombre de la prueba:
+
+               6.2.5.1.2 Descripción de la prueba:
+
+               6.2.5.1.3 Resultado:
+
+                    6.2.5.1.3.1 Resultado cuantitativo:
+
+                         6.2.5.1.3.1.1 Unidad de valor:
+
+                         6.2.5.1.3.1.2 Valor:
+
+6.3 Linaje:
+
+     6.3.1 Enunciado: Los insumos para este producto son las actualizaciones de los elementos que conforman el Marco Geoestadístico: Áreas Geoestadísticas Estatales (AGEE), Áreas Geoestadísticas Municipales (AGEM) Áreas Geoestadísticas Básicas Rurales (AGEB), Polígonos de Localidades Urbanas y Rurales, Territorio Insular y Localidades Rurales Puntuales, resultado de las actualizaciones identificadas al mes de abril 2017.   
+
+     6.3.2 Pasos del proceso:
+
+          6.3.2.1 Descripción: 1) Actualización en campo. Previo y durante cualquier evento censal se realizan  recorridos y pruebas piloto de campo comparando los elementos del evento anterior contra lo observado, y así mantener la información del Marco Geoestadístico Nacional actualizada. 2) Validación. Todas las actualizaciones detectadas en campo son validadas aplicando la normatividad y los criterios vigentes para tal fin, para su posterior validación del archivo digital mediante las rutinas definidas con un margen de .001 para la validación de la generación entre sus límites (ver CONTROL DE CALIDAD). 3) Digitalización. Plasmar en un archivo vectorial las modificaciones detectadas en campo, con su respectiva validación, para tener un comparativo con el evento anterior reciente, mediante la conformación de polilíneas de los conjuntos estatales y municipales; es decir, de los trazos correspondientes a la información, que proceden para su actualización. 4) Elaboración de productos (impresos y digitales), exportación del Marco Geoestadístico Municipal a diferentes formatos de software, para su interpretación, según el uso requerido para el  usuario interno y externo. 5) Entrega a la dirección de difusión de los archivos productos para su comercialización; en estos archivos se plasma la información ya actualizada para que el área encargada permita la facilitación de la venta del producto. 6) Puesta a disposición de los usuarios, mediante sitios de internet web o a través del portal de la página del INEGI, según sea el caso requerido por cada usuario. 
+
+
+
+          6.3.2.1 Descripción: CONTROL DE CALIDAD: 
+CRITERIO: Consistencia lógica.
+SUBCRITERIO: Consistencia Topológica.
+AMBITO DE LA REVISIÓN: Los vectores que conforman el MARCO GEOESTADÍSTICO, JUNIO 2017.
+INSPECCIÓN: Completa.
+EXPLICACIÓN DE LA REVISIÓN: Mediante algoritmos y análisis vectorial se identificaron inconsistencias  tales como: confrontación de datos contra catálogos, coincidencia entre los diferentes límites, intersecciones, huecos entre elementos, correcta referencia espacial,   rasgos duplicados de manera física o tabular.
+NIVEL DE CONFORMIDAD DE CALIDAD: Para los vectoriales del Marco Geoestadístico, se aplicó una tolerancia de error predeterminado en la tecnología utilizada de .001 metros.
+RESULTADOS DE LA REVISIÓN: Se revisó la totalidad de los elementos, detectando errores propios de la actualización de límites geoestadísticos, siendo la solución una reinstrucción a las Entidades Federativas el verificar el límite y la corrección de los elementos.
+EVALUADORES: Dirección General de Geografía y Medio Ambiente, Dirección Adjunta de Información Geográfica Básica, Dirección de Límites y Marco Geoestadístico, Subdirección de Marco Geoestadístico. 
+OBSERVACIONES: Las inconsistencias encontradas se debieron al continuo crecimiento de las manchas urbanas.
+
+
+
+          6.3.2.1 Descripción: TECNOLOGIA EMPLEADA:  El software empleado en PC para la realización de la versión del MARCO GEOESTADÍSTICO, JUNIO 2017 fue el ArcGis 10.4 for desktop con tipo de licencia Advanced  
+
+     6.3.3 Fuente:
+
+          6.3.3.1 Descripción: FUENTE 1: Contiene Imágenes Spot Pancromática: 455-745nm,  2 bandas, blanco y negro, proyección: Lambert_Conformal_Conic_2SP, fecha del 04 de Marzo 2016, unidades de resolución: >1 (unitless), comprensión: JPEG2000. La información que se ofrece, se encuentra en proyección Cónica Conforme de Lámbert (CCL) Paralelos tipo 29º30 (N) y 17º30 (N). Latitud origen en el paralelo 12º (N) = 0 metros en las y (ordenadas) y la longitud origen en el meridiano 102º (W) = 2,500,000 metros en las x (absisas) y el sistema de referencia ITRF92. FUENTE: INEGI.
+
+FUENTE 2: MARCO GEOESTADÍSTICO, JUNIO 2016, contiene Áreas Geoestadísticas Estatales (AGEE), Áreas Geoestadísticas Municipales (AGEM), Áreas Geoestadísticas Básicas (AGEB), Polígonos de las Localidades Urbanas y Rurales, Polígonos del Territorio Insular y las Localidades Rurales Puntuales del País. FUENTE: INEGI  
+
+
+
+SECCIÓN 7. Entidades y atributos:
+
+7.1 Descripción general de entidades y atributos: El Marco Geoestadístico es la división del país en Áreas Geoestadísticas con tres niveles de desagregación: Estatal (AGEE), Municipal (AGEM) y Básica (AGEB), Polígonos Urbanos y Rurales, Territorio Insular y Localidades Rurales Puntuales del País. Los Límites Estatales y Municipales se componen en algunos de sus trazos de límites político-administrativos, en su mayoría son límites geoestadísticos. Para esta versión se representa la siguiente información:
+
+Polígonos de Áreas Geoestadísticas Estatales, que representan la delimitación de cada Estado que integra la República Mexicana. 
+Polígonos de Áreas Geoestadísticas Municipales, que representan la delimitación de cada Municipio que integra una Entidad Federativa. 
+Polígonos de Áreas Geoestadísticas Básicas Rurales, que representan la delimitación de los AGEB que integran un Municipio.
+Puntos de ubicación de Localidades Rurales, que representan cada una de las localidades rurales correspondientes a los Estados.
+Polígonos de Localidades Urbanas y Rurales Geoestadísticas, que representan cada una de las localidades urbanas  correspondientes a los Estados.
+Polígonos de Isla, que representa cada una de las islas correspondientes al Territorio Mexicano.
+
+DOMINIO DE VALORES
+CVE_ENT: 	Es la clave geoestadística de la entidad Federativa que va del 01 que corresponde a Aguascalientes al 32 Zacatecas.
+CVE_MUN:	Es la clave geoestadística asignada a los municipios del 001 al último número del municipio que tenga la entidad. 
+CVE_LOC: 	Es la clave geoestadística asignada a las localidades rurales y urbanas.
+CVE_AGEB: 	Es la clave del Área Geoestadística Básica Rural asignada a nivel municipio.
+NOM_ENT: 	Es el nombre de la entidad federativa.
+NOM_MUN: 	Es el nombre del municipio.
+NOM_LOC: 	Corresponde al  nombre de localidad rural y urbana.
+NOMBRE: 	Es el nombre de la Isla.
+TIPO:		Indica si la localidad es Urbana (U) o Rural (R).
+7.2 Cita del detalle de entidades y atributos: Manual del Marco Geoestadístico Nacional, disponible en la Subdirección del Marco Geoestadístico.
+
+SECCIÓN 8. Distribución:
+
+8.1 Restricciones de acceso: 8. Acceso al público a través de internet y los Centros de Información del Instituto Nacional de Estadística y Geografía - INEGI.
+
+8.2 Restricciones de uso: 8. Ninguna.
+
+8.3 Responsabilidad de distribución: El Instituto Nacional de Estadística y Geografía - INEGI no se hace responsable por el uso que usted le dé a los datos.
+
+8.4 Formato de distribución:
+
+     8.4.1 Nombre del formato: Shape
+
+     8.4.2 Versión del formato: Arc Map 10.4
+
+
+SECCIÓN 9. Información del contacto para los metadatos:
+
+9.1 Nombre del estándar de metadatos: ISO 19115 Información Geográfica - Metadatos (Norma Técnica para Metadatos).
+
+9.2 Versión de la norma de metadatos: 2003 (1.0).
+
+9.3 Idioma de los Metadatos: ES - Español.
+
+9.4 Punto de contacto para los Metadatos: 
+
+     9.4.1 Nombre de la persona de contacto: Lic. Rafael Arrioja Urzúa.
+
+     9.4.2 Nombre de la organización: Instituto Nacional de Estadística y Geografía - INEGI.
+
+     9.4.3 Puesto del contacto: Jefe del Departamento de Administración de Metadatos.
+
+     9.4.4 Teléfono: (449)9105300 Ext. 1750 y 5631.
+
+     9.4.5 Fax: (449)4424145.
+
+     9.4.6 Dirección: Av. Héroe de Nacozari Sur Núm. 2301. Fracc. Jardines del Parque.
+
+     9.4.7 Ciudad: Aguascalientes.
+
+     9.4.8 Área administrativa: Aguascalientes.
+
+     9.4.9 Código postal: 20276
+
+     9.4.10 País: México
+
+     9.4.11 Dirección de correo electrónico del contacto: rafael.arrioja@inegi.org.mx
+
+     9.4.12 Rol:   7. Punto de contacto: Parte que puede ser contactada para informarse sobre el recurso o adquisición del mismo.
+
+9.5 Fecha de los metadatos: 2017-06-29
+
+9.6 Conjunto de caracteres:   6. 8859parte1: ISO/IEC 8859-1, Tecnologías de la Información - Conjuntos de caracteres gráficos codificados de 8-bit por byte - Parte 1: Alfabeto Latino No.1.
+

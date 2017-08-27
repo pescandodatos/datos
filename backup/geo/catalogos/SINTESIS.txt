@@ -1,0 +1,9 @@
+SÍNTESIS
+
+
+MARCO GEOESTADÍSTICO, JUNIO 2017
+
+Contiene la representación del país, delimitado en las Áreas Geoestadísticas Estatales (AGEE), Áreas Geoestadísticas  Municipales  (AGEM), Áreas Geoestadísticas Básicas Rurales (AGEB), Localidades Rurales Puntuales, Polígonos de Localidades Urbanas y Rurales y Territorio Insular.
+
+
+	

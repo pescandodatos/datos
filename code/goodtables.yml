@@ -1,0 +1,4 @@
+files: 
+  - source: '*.csv'
+  - encoding: utf-8
+datapackages: datapackage.json

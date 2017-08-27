@@ -1,0 +1,157 @@
+Localidades urbanas que rebasan su municipio*,,,,,,,
+* El rebase podría ser milimétrico en algunas localidades,,,,,,,
+Localidad urbana,,,,Municipio al que sobresale,Municipio al que sobresale,,
+Clave Entidad,Clave Municipio,Clave Localidad,Nombre Geográfico,Ámbito,Clave Entidad,Clave Municipio,Nombre Geográfico
+01,001,0001,Aguascalientes,U,01,005,Jesús María
+01,001,0239,General José María Morelos y Pavón (Cañada Honda),U,01,011,San Francisco de los Romo
+01,005,0023,Corral de Barrancos,U,01,001,Aguascalientes
+01,005,0245,El Llano,U,01,001,Aguascalientes
+01,011,0001,San Francisco de los Romo,U,01,006,Pabellón de Arteaga
+05,030,0001,Saltillo,U,05,027,Ramos Arizpe
+07,027,0622,Jardínes del Grijalva,U,07,101,Tuxtla Gutiérrez
+09,002,0001,Azcapotzalco,U,09,016,Miguel Hidalgo
+09,003,0001,Coyoacán,U,09,010,Álvaro Obregón
+09,003,0001,Coyoacán,U,09,014,Benito Juárez
+09,003,0001,Coyoacán,U,09,012,Tlalpan
+09,005,0001,Gustavo A. Madero,U,09,015,Cuauhtémoc
+09,005,0001,Gustavo A. Madero,U,15,033,Ecatepec de Morelos
+09,005,0001,Gustavo A. Madero,U,15,104,Tlalnepantla de Baz
+09,005,0001,Gustavo A. Madero,U,09,017,Venustiano Carranza
+09,006,0001,Iztacalco,U,09,017,Venustiano Carranza
+09,007,0001,Iztapalapa,U,09,003,Coyoacán
+09,010,0001,Álvaro Obregón,U,09,003,Coyoacán
+09,011,0026,Santa Catarina Yecahuitzotl,U,09,007,Iztapalapa
+09,011,0026,Santa Catarina Yecahuitzotl,U,15,122,Valle de Chalco Solidaridad
+09,012,0001,Tlalpan,U,09,003,Coyoacán
+09,015,0001,Cuauhtémoc,U,09,017,Venustiano Carranza
+09,017,0001,Venustiano Carranza,U,09,015,Cuauhtémoc
+09,017,0001,Venustiano Carranza,U,09,005,Gustavo A. Madero
+09,017,0001,Venustiano Carranza,U,09,006,Iztacalco
+11,021,0001,Moroleón,U,11,041,Uriangato
+11,041,0001,Uriangato,U,11,021,Moroleón
+12,001,0001,Acapulco de Juárez,U,12,021,Coyuca de Benítez
+12,017,0001,Cocula,U,12,035,Iguala de la Independencia
+13,003,0005,El Boxtha,U,13,054,San Salvador
+13,003,0010,Chicavasco,U,13,009,El Arenal
+13,023,0012,El Rosario,U,13,054,San Salvador
+13,050,0001,Progreso,U,13,041,Mixquiahuala de Juárez
+13,054,0032,Caxuxi,U,13,003,Actopan
+13,069,0002,El Carmen,U,15,036,Hueypoxtla
+13,069,0002,El Carmen,U,13,075,Tolcayuca
+13,077,0001,Tulancingo,U,13,056,Santiago Tulantepec de Lugo Guerrero
+13,083,0026,Santiago Tepeyahualco,U,15,061,Nopaltepec
+14,039,0001,Guadalajara,U,14,120,Zapopan
+14,050,0002,Chantepec (El Chante),U,14,030,Chapala
+14,070,0013,Las Pintas,U,14,098,San Pedro Tlaquepaque
+14,070,0013,Las Pintas,U,14,097,Tlajomulco de Zúñiga
+14,097,0020,Los Gavilanes,U,14,098,San Pedro Tlaquepaque
+14,097,0025,San Agustín,U,14,098,San Pedro Tlaquepaque
+14,097,0035,Santa Cruz del Valle,U,14,098,San Pedro Tlaquepaque
+14,098,0001,Tlaquepaque,U,14,070,El Salto
+14,098,0001,Tlaquepaque,U,14,039,Guadalajara
+14,098,0001,Tlaquepaque,U,14,101,Tonalá
+14,098,0014,Santa Anita,U,14,097,Tlajomulco de Zúñiga
+14,101,0027,La Punta,U,14,070,El Salto
+14,120,0001,Zapopan,U,14,039,Guadalajara
+15,005,0045,Santiaguito Tlalcilalcalli,U,15,106,Toluca
+15,013,0001,Ciudad López Mateos,U,15,121,Cuautitlán Izcalli
+15,013,0001,Ciudad López Mateos,U,15,057,Naucalpan de Juárez
+15,013,0001,Ciudad López Mateos,U,15,060,Nicolás Romero
+15,013,0001,Ciudad López Mateos,U,15,104,Tlalnepantla de Baz
+15,028,0001,Chiautla,U,15,069,Papalotla
+15,028,0001,Chiautla,U,15,099,Texcoco
+15,030,0001,Chiconcuac de Juárez,U,15,028,Chiautla
+15,033,0001,Ecatepec de Morelos,U,15,081,Tecámac
+15,033,0001,Ecatepec de Morelos,U,15,104,Tlalnepantla de Baz
+15,042,0030,San Pedro los Baños,U,15,048,Jocotitlán
+15,051,0001,Lerma de Villada,U,15,062,Ocoyoacac
+15,051,0001,Lerma de Villada,U,15,076,San Mateo Atenco
+15,053,0005,San Francisco Tenopalco,U,15,108,Tultepec
+15,054,0035,San Gaspar Tlahuelilpan,U,15,076,San Mateo Atenco
+15,054,0037,San Jerónimo Chicahualco,U,15,106,Toluca
+15,054,0052,San Sebastián,U,15,076,San Mateo Atenco
+15,057,0001,Naucalpan de Juárez,U,15,013,Atizapán de Zaragoza
+15,057,0001,Naucalpan de Juárez,U,15,104,Tlalnepantla de Baz
+15,058,0001,Ciudad Nezahualcóyotl,U,09,005,Gustavo A. Madero
+15,058,0001,Ciudad Nezahualcóyotl,U,09,017,Venustiano Carranza
+15,060,0001,Ciudad Nicolás Romero,U,15,013,Atizapán de Zaragoza
+15,060,0001,Ciudad Nicolás Romero,U,15,095,Tepotzotlán
+15,065,0019,Santiago Tolman,U,15,075,San Martín de las Pirámides
+15,067,0001,Villa Cuauhtémoc,U,15,087,Temoaya
+15,069,0001,Papalotla,U,15,028,Chiautla
+15,076,0001,San Mateo Atenco,U,15,051,Lerma
+15,076,0001,San Mateo Atenco,U,15,054,Metepec
+15,076,0001,San Mateo Atenco,U,15,106,Toluca
+15,081,0019,Ojo de Agua,U,15,033,Ecatepec de Morelos
+15,081,0098,Fraccionamiento Social Progresivo Santo Tomás Chiconautla,U,15,033,Ecatepec de Morelos
+15,091,0001,Teoloyucan,U,15,024,Cuautitlán
+15,101,0006,Guadalupe Yancuictlalpan (Gualupita),U,15,043,Xalatlaco
+15,104,0001,Tlalnepantla,U,15,013,Atizapán de Zaragoza
+15,104,0001,Tlalnepantla,U,09,002,Azcapotzalco
+15,104,0001,Tlalnepantla,U,15,033,Ecatepec de Morelos
+15,104,0105,Puerto Escondido (Tepeolulco Puerto Escondido),U,15,033,Ecatepec de Morelos
+15,106,0068,San Diego de los Padres Cuexcontitlán,U,15,067,Otzolotepec
+15,106,0084,San Pedro Totoltepec,U,15,051,Lerma
+15,109,0025,San Pablo de las Salinas,U,15,033,Ecatepec de Morelos
+15,109,0025,San Pablo de las Salinas,U,15,044,Jaltenco
+15,120,0198,Paseos de San Juan,U,15,081,Tecámac
+15,121,0001,Cuautitlán Izcalli,U,15,013,Atizapán de Zaragoza
+15,122,0001,Xico,U,09,007,Iztapalapa
+15,122,0001,Xico,U,09,011,Tláhuac
+16,020,0001,Cuitzeo del Porvenir,U,16,018,Copándaro
+16,100,0009,Ihuatzio,U,16,066,Pátzcuaro
+17,012,0001,Jojutla,U,17,025,Tlaquiltenango
+17,018,0001,Temixco,U,17,028,Xochitepec
+18,010,0035,San Vicente,U,18,018,Tuxpan
+18,011,0001,Ruíz,U,18,010,Rosamorada
+18,017,0001,Tepic,U,18,008,Xalisco
+18,018,0001,Tuxpan,U,18,010,Rosamorada
+20,021,0001,Cosolapa,U,30,173,Tezonapa
+20,028,0001,Heroica Ciudad de Ejutla de Crespo,U,20,542,Taniche
+20,043,0001,Heroica Ciudad de Juchitán de Zaragoza,U,20,441,Santa María Xadani
+20,063,0001,Nazareno Etla,U,20,033,Guadalupe Etla
+20,067,0001,Oaxaca de Juárez,U,20,293,San Pablo Etla
+20,103,0001,San Antonino Castillo Velasco,U,20,068,Ocotlán de Morelos
+20,132,0001,San Dionisio Ocotlán,U,20,068,Ocotlán de Morelos
+20,145,0001,San Francisco Lachigoló,U,20,550,San Jerónimo Tlacochahuaya
+20,156,0001,San Ildefonso Villa Alta,U,20,128,San Cristóbal Lachirioag
+20,163,0001,San Jerónimo Tecóatl,U,20,322,San Pedro Ocopetatillo
+20,174,0001,Ánimas Trujano,U,20,083,San Agustín de las Juntas
+20,227,0001,San Lorenzo Cacaotepec,U,20,135,San Felipe Tejalápam
+20,301,0001,San Pedro Apóstol,U,20,072,San José del Progreso
+20,350,0001,San Sebastián Tutla,U,20,375,Santa Cruz Amilpas
+20,385,0001,Santa Cruz Xoxocotlán,U,20,023,Cuilápam de Guerrero
+20,398,0001,Ayoquezco de Aldama,U,20,028,Heroica Ciudad de Ejutla de Crespo
+20,403,0001,Santa María Coyotepec,U,20,115,San Bartolo Coyotepec
+20,409,0001,Santa María del Tule,U,20,519,Santo Domingo Tomaltepec
+20,409,0001,Santa María del Tule,U,20,553,Tlalixtac de Cabrera
+20,427,0010,Rincón Viejo,U,20,057,Matías Romero Avendaño
+21,001,0011,San Jerónimo Ocotitlán,U,21,015,Amozoc
+21,001,0016,Santa María Nenetzintla,U,21,163,Tepatlaxco de Hidalgo
+21,015,0001,Amozoc de Mota,U,21,114,Puebla
+21,019,0001,Atlixco,U,21,175,Tianguismanalco
+21,097,0001,San Francisco Mixtla,U,21,153,Tecali de Herrera
+21,114,0001,Heroica Puebla de Zaragoza,U,21,015,Amozoc
+21,114,0001,Heroica Puebla de Zaragoza,U,21,041,Cuautlancingo
+21,114,0001,Heroica Puebla de Zaragoza,U,21,119,San Andrés Cholula
+21,119,0013,San Bernardino Tlaxcalancingo,U,21,114,Puebla
+21,143,0011,San Lucas el Grande,U,21,132,San Martín Texmelucan
+22,006,0044,San José de los Olvera,U,22,014,Querétaro
+22,014,0001,Santiago de Querétaro,U,22,006,Corregidora
+25,001,0156,Gustavo Díaz Ordaz (El Carrizo),U,25,010,El Fuerte
+25,015,0001,Guamúchil,U,25,002,Angostura
+26,025,0001,Empalme,U,26,029,Guaymas
+29,001,0001,Amaxac de Guerrero,U,29,043,Yauhquemehcan
+29,015,0038,La Trinidad Tenexyecac,U,29,024,Panotla
+29,025,0001,Villa Vicente Guerrero,U,21,114,Puebla
+29,041,0001,Papalotla,U,29,017,Mazatecochco de José María Morelos
+29,041,0001,Papalotla,U,29,027,Tenancingo
+29,043,0006,Santa María Atlihuetzian,U,29,002,Apetatitlán de Antonio Carvajal
+29,047,0001,Lázaro Cárdenas,U,29,030,Terrenate
+29,050,0001,San Francisco Tetlanohcan,U,29,028,Teolocholco
+30,003,0001,Acayucan,U,30,116,Oluta
+30,087,0086,Colonia Santa Bárbara,U,30,065,Emiliano Zapata
+30,173,0001,Tezonapa,U,20,021,Cosolapa
+31,041,0001,Kanasín,U,31,050,Mérida
+31,050,0001,Mérida,U,31,041,Kanasín
+32,017,0001,Guadalupe,U,32,050,Vetagrande
