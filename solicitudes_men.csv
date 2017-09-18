@@ -1,4 +1,4 @@
-id,Componente,"Año",Estado,Municipio,Localidad,Registradas,Apoyadas,cod_inegi_localidad,cod_inegi_municipio
+id,Componente,Ano,Estado,Municipio,Localidad,Registradas,Apoyadas,cod_inegi_localidad,cod_inegi_municipio
 1,MOTOR,2014,AGUASCALIENTES,AGUASCALIENTES,AGUASCALIENTES,,0,001001001,001001
 2,EMBARCACION,2014,AGUASCALIENTES,AGUASCALIENTES,AGUASCALIENTES,1,0,001001001,001001
 3,HIELERA,2014,AGUASCALIENTES,AGUASCALIENTES,AGUASCALIENTES,0,0,001001001,001001

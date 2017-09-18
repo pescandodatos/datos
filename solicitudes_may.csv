@@ -1,4 +1,4 @@
-id,"Año",Estado,Municipio,Localidad,Recibidas,Apoyadas,Monto,cod_inegi_localidad,cod_inegi_municipio
+id,Ano,Estado,Municipio,Localidad,Recibidas,Apoyadas,Monto,cod_inegi_localidad,cod_inegi_municipio
 1,2015,"BAJA CALIFORNIA",ENSENADA,ENSENADA,25,7,3.27,002001001,002001
 2,2015,"BAJA CALIFORNIA SUR","LA PAZ","LA PAZ",2,0,0,003003001,003003
 3,2015,CAMPECHE,CAMPECHE,CAMPECHE,22,4,8.57,,004002
