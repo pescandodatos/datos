@@ -1,3 +1,4 @@
-files:
-  - source: '*.csv'
-  - encoding: utf-8
+files: '*.csv'
+settings:
+  error_limit: 10
+  encoding: utf-8
