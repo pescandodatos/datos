@@ -1,0 +1,1760 @@
+{
+    "profile": "data-package",
+    "resources": [
+        {
+            "profile": "tabular-data-resource",
+            "name": "abreviaciones",
+            "format": "csv",
+            "encoding": "utf-8",
+            "mediatype": "text/csv",
+            "path": "abreviaciones.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "type": "string",
+                        "name": "Abreviatura",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "Descripcion",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        },
+        {
+            "profile": "tabular-data-resource",
+            "name": "activos",
+            "format": "csv",
+            "encoding": "utf-8",
+            "mediatype": "text/csv",
+            "path": "activos.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "type": "integer",
+                        "name": "rnpa",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "nombre",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "tipo",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "municipio",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "localidad",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "estado",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "ano_construccion",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        },
+        {
+            "profile": "tabular-data-resource",
+            "name": "beneficiarios",
+            "format": "csv",
+            "encoding": "utf-8",
+            "mediatype": "text/csv",
+            "path": "beneficiarios.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "type": "integer",
+                        "name": "id",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "nombre",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "rnpa",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        },
+        {
+            "profile": "tabular-data-resource",
+            "name": "beneficiarios_componentes",
+            "format": "csv",
+            "encoding": "utf-8",
+            "mediatype": "text/csv",
+            "path": "beneficiarios_componentes.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "type": "integer",
+                        "name": "id",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "ano",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "beneficiario",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "rnpa",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "especie",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "estado",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "municipio",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "localidad",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "monto",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "cod_inegi_localidad",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "cod_inegi_municipio",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        },
+        {
+            "profile": "tabular-data-resource",
+            "name": "beneficiarios_diesel",
+            "format": "csv",
+            "encoding": "utf-8",
+            "mediatype": "text/csv",
+            "path": "beneficiarios_diesel.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "type": "integer",
+                        "name": "id",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "ano",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "beneficiario",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "rfc",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "rnpa",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "estado",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "municipio",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "localidad",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "monto",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "cod_inegi_municipio",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "cod_inegi_localidad",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        },
+        {
+            "profile": "tabular-data-resource",
+            "name": "beneficiarios_electricos",
+            "format": "csv",
+            "encoding": "utf-8",
+            "mediatype": "text/csv",
+            "path": "beneficiarios_electricos.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "type": "integer",
+                        "name": "id",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "ano",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "estado",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "beneficiario",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "rnpa",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "municipio",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "localidad",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "tipo_monto",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "monto",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "cod_inegi_localidad",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "cod_inegi_municipio",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        },
+        {
+            "profile": "tabular-data-resource",
+            "name": "beneficiarios_gasolina",
+            "format": "csv",
+            "encoding": "utf-8",
+            "mediatype": "text/csv",
+            "path": "beneficiarios_gasolina.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "type": "integer",
+                        "name": "id",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "ano",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "beneficiario",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "rfc",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "rnpa",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "estado",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "municipio",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "localidad",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "monto",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "cod_inegi_localidad",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "cod_inegi_municipio",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        },
+        {
+            "profile": "tabular-data-resource",
+            "name": "beneficiarios_infraestructura",
+            "format": "csv",
+            "encoding": "utf-8",
+            "mediatype": "text/csv",
+            "path": "beneficiarios_infraestructura.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "type": "integer",
+                        "name": "id",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "ano",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "beneficiario",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "rnpa",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "nombre_proyecto",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "tipo_proyecto",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "especie",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "estado",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "municipio",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "localidad",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "monto",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "cod_inegi_localidad",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "cod_inegi_municipio",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        },
+        {
+            "profile": "tabular-data-resource",
+            "name": "beneficiarios_integral",
+            "format": "csv",
+            "encoding": "utf-8",
+            "mediatype": "text/csv",
+            "path": "beneficiarios_integral.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "type": "integer",
+                        "name": "id",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "ano",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "beneficiario",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "rnpa",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "nombre_proyecto",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "tipo_apoyo",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "especie",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "estado",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "municipio",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "localidad",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "monto",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "cod_inegi_localidad",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "cod_inegi_municipio",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        },
+        {
+            "profile": "tabular-data-resource",
+            "name": "beneficiarios_menores",
+            "format": "csv",
+            "encoding": "utf-8",
+            "mediatype": "text/csv",
+            "path": "beneficiarios_menores.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "type": "integer",
+                        "name": "id",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "componente",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "ano",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "beneficiario",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "rnpa",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "estado",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "municipio",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "localidad",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "tipo_monto",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "monto",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "cod_inegi_localidad",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "cod_inegi_municipio",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        },
+        {
+            "profile": "tabular-data-resource",
+            "name": "beneficiarios_modernizacion_may_2014",
+            "format": "csv",
+            "encoding": "utf-8",
+            "mediatype": "text/csv",
+            "path": "beneficiarios_modernizacion_may_2014.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "type": "integer",
+                        "name": "id",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "ano",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "estado",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "puerto",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "beneficiario",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "rnpa",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "embarcacion",
+                        "format": "default"
+                    },
+                    {
+                        "type": "number",
+                        "name": "monto_aprobado",
+                        "format": "default"
+                    },
+                    {
+                        "type": "number",
+                        "name": "pagado",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "2014_nov_dic_pasivos",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "2014_enero_marzo_pasivos",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "desistido",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "acta",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "reintegro",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "pdte_comprobante_pago",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        },
+        {
+            "profile": "tabular-data-resource",
+            "name": "beneficiarios_modernizacion_may_2015",
+            "format": "csv",
+            "encoding": "utf-8",
+            "mediatype": "text/csv",
+            "path": "beneficiarios_modernizacion_may_2015.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "type": "integer",
+                        "name": "id",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "ano",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "estado",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "puerto",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "beneficiario",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "rnpa",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "embarcacion",
+                        "format": "default"
+                    },
+                    {
+                        "type": "number",
+                        "name": "monto_total",
+                        "format": "default"
+                    },
+                    {
+                        "type": "number",
+                        "name": "aportacion_productor",
+                        "format": "default"
+                    },
+                    {
+                        "type": "number",
+                        "name": "aportacion_conapesca",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "pagado_por_concepto",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "pagado_reembolso",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "pasivos",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "desistido",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "saldo",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        },
+        {
+            "profile": "tabular-data-resource",
+            "name": "beneficiarios_motores",
+            "format": "csv",
+            "encoding": "utf-8",
+            "mediatype": "text/csv",
+            "path": "beneficiarios_motores.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "type": "integer",
+                        "name": "id",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "Ano",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "Beneficiario",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "rnpa",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "Estado",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "Municipio",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "Localidad",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "Tipo_monto",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "Monto",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "cod_inegi_localidad",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "cod_inegi_municipio",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        },
+        {
+            "profile": "tabular-data-resource",
+            "name": "beneficiarios_pesca",
+            "format": "csv",
+            "encoding": "utf-8",
+            "mediatype": "text/csv",
+            "path": "beneficiarios_pesca.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "type": "integer",
+                        "name": "main_ID",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "Ano",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "Beneficiario",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "Rnpa",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "Especie",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "Estado",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "Municipio",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "Localidad",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "Monto federal",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        },
+        {
+            "profile": "tabular-data-resource",
+            "name": "beneficiarios_reconversion",
+            "format": "csv",
+            "encoding": "utf-8",
+            "mediatype": "text/csv",
+            "path": "beneficiarios_reconversion.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "type": "integer",
+                        "name": "id",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "Ano",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "Beneficiario",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "Rnpa",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "Nombre proyecto",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "Tipo proyecto",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "Especie",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "Estado",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "Municipio",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "Localidad",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "Monto",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "cod_inegi_localidad",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "cod_inegi_municipio",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        },
+        {
+            "profile": "tabular-data-resource",
+            "name": "embarcaciones_permisos",
+            "format": "csv",
+            "encoding": "utf-8",
+            "mediatype": "text/csv",
+            "path": "embarcaciones_permisos.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "type": "integer",
+                        "name": "id",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "rnpa",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "nombre",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "rnpa_unidad_economica",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "nombre_unidad_economica",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "estado",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "municipio",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "localidad",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "tipo",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "fecha_registro",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "cod_inegi_localidad",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "cod_inegi_municipio",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        },
+        {
+            "profile": "tabular-data-resource",
+            "name": "inegi",
+            "format": "csv",
+            "encoding": "utf-8",
+            "mediatype": "text/csv",
+            "path": "inegi.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "type": "integer",
+                        "name": "id",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "COD_INEGI_MUNICIPIO",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "COD_INEGI_LOCALIDAD",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "COD_ESTADO",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "ESTADO",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "NOM_ABR",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "COD_MUNICIPIO",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "MUNICIPIO",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "COD_LOCALIDAD",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "LOCALIDAD",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "AMBITO",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "LATITUD",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "LONGITUD",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "ALTITUD",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "CVE_CARTA",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "COD_INEGI",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        },
+        {
+            "profile": "tabular-data-resource",
+            "name": "localidades",
+            "format": "csv",
+            "encoding": "utf-8",
+            "mediatype": "text/csv",
+            "path": "localidades.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "type": "integer",
+                        "name": "id",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "estado",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "municipio",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "cod_inegi_municipio",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "localidad",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "cod_inegi_localidad",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        },
+        {
+            "profile": "tabular-data-resource",
+            "name": "localidades_sin_codigo_inegi",
+            "format": "csv",
+            "encoding": "utf-8",
+            "mediatype": "text/csv",
+            "path": "localidades_sin_codigo_inegi.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "type": "string",
+                        "name": "estado",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "municipio",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "cod_inegi_municipio",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "localidad",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "cod_inegi_localidad",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        },
+        {
+            "profile": "tabular-data-resource",
+            "name": "marginacion",
+            "format": "csv",
+            "encoding": "utf-8",
+            "mediatype": "text/csv",
+            "path": "marginacion.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "type": "integer",
+                        "name": "id",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "COD_INEGI",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "ENT",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "NOM_ENT",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "MUN",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "NOM_MUN",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "LOC",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "NOM_LOC",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "POB_TOT",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "VPH",
+                        "format": "default"
+                    },
+                    {
+                        "type": "number",
+                        "name": "ANAL10",
+                        "format": "default"
+                    },
+                    {
+                        "type": "number",
+                        "name": "SPRIM10",
+                        "format": "default"
+                    },
+                    {
+                        "type": "number",
+                        "name": "SEXC10",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "SEE10",
+                        "format": "default"
+                    },
+                    {
+                        "type": "number",
+                        "name": "SAGUAE10",
+                        "format": "default"
+                    },
+                    {
+                        "type": "number",
+                        "name": "PROM_OCC10",
+                        "format": "default"
+                    },
+                    {
+                        "type": "number",
+                        "name": "PISOTIE10",
+                        "format": "default"
+                    },
+                    {
+                        "type": "number",
+                        "name": "SREFRI10",
+                        "format": "default"
+                    },
+                    {
+                        "type": "number",
+                        "name": "IM_2010",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "GM_2010",
+                        "format": "default"
+                    },
+                    {
+                        "type": "number",
+                        "name": "IMC0A100",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "LUG_NAL",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "LUG_EDO",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        },
+        {
+            "profile": "tabular-data-resource",
+            "name": "marginacion_localidad",
+            "format": "csv",
+            "encoding": "utf-8",
+            "mediatype": "text/csv",
+            "path": "marginacion_localidad.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "type": "integer",
+                        "name": "ID",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "COD_INEGI",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "ENT",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "NOM_ENT",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "MUN",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "NOM_MUN",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "LOC",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "NOM_LOC",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "POB_TOT",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "VPH",
+                        "format": "default"
+                    },
+                    {
+                        "type": "number",
+                        "name": "ANAL10",
+                        "format": "default"
+                    },
+                    {
+                        "type": "number",
+                        "name": "SPRIM10",
+                        "format": "default"
+                    },
+                    {
+                        "type": "number",
+                        "name": "SEXC10",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "SEE10",
+                        "format": "default"
+                    },
+                    {
+                        "type": "number",
+                        "name": "SAGUAE10",
+                        "format": "default"
+                    },
+                    {
+                        "type": "number",
+                        "name": "PROM_OCC10",
+                        "format": "default"
+                    },
+                    {
+                        "type": "number",
+                        "name": "PISOTIE10",
+                        "format": "default"
+                    },
+                    {
+                        "type": "number",
+                        "name": "SREFRI10",
+                        "format": "default"
+                    },
+                    {
+                        "type": "number",
+                        "name": "IM_2010",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "GM_2010",
+                        "format": "default"
+                    },
+                    {
+                        "type": "number",
+                        "name": "IMC0A100",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "LUG_NAL",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "LUG_EDO",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        },
+        {
+            "profile": "tabular-data-resource",
+            "name": "marginacion_municipio",
+            "format": "csv",
+            "encoding": "utf-8",
+            "mediatype": "text/csv",
+            "path": "marginacion_municipio.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "type": "integer",
+                        "name": "ID",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "COD_INEGI",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "CVE_ENT",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "ENT",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "CVE_MUN",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "MUN",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "POB_TOT",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "VP",
+                        "format": "default"
+                    },
+                    {
+                        "type": "number",
+                        "name": "ANALF",
+                        "format": "default"
+                    },
+                    {
+                        "type": "number",
+                        "name": "SPRIM",
+                        "format": "default"
+                    },
+                    {
+                        "type": "number",
+                        "name": "OVSDE",
+                        "format": "default"
+                    },
+                    {
+                        "type": "number",
+                        "name": "OVSEE",
+                        "format": "default"
+                    },
+                    {
+                        "type": "number",
+                        "name": "OVSAE",
+                        "format": "default"
+                    },
+                    {
+                        "type": "number",
+                        "name": "VHAC",
+                        "format": "default"
+                    },
+                    {
+                        "type": "number",
+                        "name": "OVPT",
+                        "format": "default"
+                    },
+                    {
+                        "type": "number",
+                        "name": "PL_5000",
+                        "format": "default"
+                    },
+                    {
+                        "type": "number",
+                        "name": "PO2SM",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "OVSD",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "OVSDSE",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "IM",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "GM",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "IND0A100",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "LUG_NAC",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "LUGAR_EST",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "ANO",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        },
+        {
+            "profile": "tabular-data-resource",
+            "name": "permisos",
+            "format": "csv",
+            "encoding": "utf-8",
+            "mediatype": "text/csv",
+            "path": "permisos.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "type": "integer",
+                        "name": "id",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "tipo_embarcacion",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "tipo_permiso",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "estado",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "municipio",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "localidad",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "rnpa",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "titular",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "especie",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "matricula",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "area",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "inicio",
+                        "format": "default"
+                    },
+                    {
+                        "type": "date",
+                        "name": "termino",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "cod_inegi_localidad",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "cod_inegi_municipio",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

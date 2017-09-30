@@ -1,7 +1,35 @@
-#!/usr/local/bin/python
-# -*- coding: utf-8 -*-
+#!/usr/bin/env python
 
-from goodtables import Inspector
+# TODO: notify if schema is not valid (validation can be done in a pre-push git hook)
+# TODO: reports on errors
+# TODO: look at the schema validation of json files (or transform them into CSV before sending them into repo)
 
-inspector = Inspector()
-print(inspector.inspect('activos.csv'))
+import goodtables
+from termcolor import colored
+
+class Validate():
+
+    def init(self):
+        self.valid = False
+
+    def run(self):
+        report = goodtables.validate('datapackage.json', preset='datapackage')
+        # TODO: Notify on errors.
+        # TODO: save fancy reports to $CIRCLE_ARTIFACTS
+
+        self.valid = True
+        for t in report['tables']:
+            print 'File %s' % t['source']
+            if t['valid']:
+                print colored('\t VALID\n', 'green')
+            else:
+                self.valid = False
+                for error in t['errors']:
+                    print colored('\t%s\n'%error['message'], 'red')
+
+        # TODO: if no errors then complete task
+        # TODO: Fail CircleCI when not valid.
+        return self.valid
+
+if __name__ == '__main__':
+    Validate().run()
