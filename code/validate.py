@@ -32,4 +32,4 @@ class Validate():
         return self.valid
 
 if __name__ == '__main__':
-    return Validate().run()
+    Validate().run()
