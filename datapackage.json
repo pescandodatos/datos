@@ -36,7 +36,7 @@
             "schema": {
                 "fields": [
                     {
-                        "type": "integer",
+                        "type": "string",
                         "name": "rnpa",
                         "format": "default"
                     },
@@ -121,7 +121,7 @@
                         "format": "default"
                     },
                     {
-                        "type": "integer",
+                        "type": "string",
                         "name": "ano",
                         "format": "default"
                     },
@@ -131,7 +131,7 @@
                         "format": "default"
                     },
                     {
-                        "type": "integer",
+                        "type": "string",
                         "name": "rnpa",
                         "format": "default"
                     },
@@ -156,17 +156,17 @@
                         "format": "default"
                     },
                     {
-                        "type": "integer",
+                        "type": "number",
                         "name": "monto",
                         "format": "default"
                     },
                     {
-                        "type": "integer",
+                        "type": "string",
                         "name": "cod_inegi_localidad",
                         "format": "default"
                     },
                     {
-                        "type": "integer",
+                        "type": "string",
                         "name": "cod_inegi_municipio",
                         "format": "default"
                     }
@@ -191,7 +191,7 @@
                         "format": "default"
                     },
                     {
-                        "type": "integer",
+                        "type": "string",
                         "name": "ano",
                         "format": "default"
                     },
@@ -226,17 +226,17 @@
                         "format": "default"
                     },
                     {
-                        "type": "integer",
+                        "type": "number",
                         "name": "monto",
                         "format": "default"
                     },
                     {
-                        "type": "integer",
+                        "type": "string",
                         "name": "cod_inegi_municipio",
                         "format": "default"
                     },
                     {
-                        "type": "integer",
+                        "type": "string",
                         "name": "cod_inegi_localidad",
                         "format": "default"
                     }
@@ -261,7 +261,7 @@
                         "format": "default"
                     },
                     {
-                        "type": "integer",
+                        "type": "string",
                         "name": "ano",
                         "format": "default"
                     },
@@ -276,7 +276,7 @@
                         "format": "default"
                     },
                     {
-                        "type": "integer",
+                        "type": "string",
                         "name": "rnpa",
                         "format": "default"
                     },
@@ -296,17 +296,17 @@
                         "format": "default"
                     },
                     {
-                        "type": "integer",
+                        "type": "number",
                         "name": "monto",
                         "format": "default"
                     },
                     {
-                        "type": "integer",
+                        "type": "string",
                         "name": "cod_inegi_localidad",
                         "format": "default"
                     },
                     {
-                        "type": "integer",
+                        "type": "string",
                         "name": "cod_inegi_municipio",
                         "format": "default"
                     }
@@ -331,7 +331,7 @@
                         "format": "default"
                     },
                     {
-                        "type": "integer",
+                        "type": "string",
                         "name": "ano",
                         "format": "default"
                     },
@@ -346,7 +346,7 @@
                         "format": "default"
                     },
                     {
-                        "type": "integer",
+                        "type": "string",
                         "name": "rnpa",
                         "format": "default"
                     },
@@ -366,7 +366,7 @@
                         "format": "default"
                     },
                     {
-                        "type": "integer",
+                        "type": "number",
                         "name": "monto",
                         "format": "default"
                     },
@@ -401,7 +401,7 @@
                         "format": "default"
                     },
                     {
-                        "type": "integer",
+                        "type": "string",
                         "name": "ano",
                         "format": "default"
                     },
@@ -411,7 +411,7 @@
                         "format": "default"
                     },
                     {
-                        "type": "integer",
+                        "type": "string",
                         "name": "rnpa",
                         "format": "default"
                     },
@@ -446,17 +446,17 @@
                         "format": "default"
                     },
                     {
-                        "type": "integer",
+                        "type": "number",
                         "name": "monto",
                         "format": "default"
                     },
                     {
-                        "type": "integer",
+                        "type": "string",
                         "name": "cod_inegi_localidad",
                         "format": "default"
                     },
                     {
-                        "type": "integer",
+                        "type": "string",
                         "name": "cod_inegi_municipio",
                         "format": "default"
                     }
@@ -481,7 +481,7 @@
                         "format": "default"
                     },
                     {
-                        "type": "integer",
+                        "type": "string",
                         "name": "ano",
                         "format": "default"
                     },
@@ -491,7 +491,7 @@
                         "format": "default"
                     },
                     {
-                        "type": "integer",
+                        "type": "string",
                         "name": "rnpa",
                         "format": "default"
                     },
@@ -526,17 +526,17 @@
                         "format": "default"
                     },
                     {
-                        "type": "integer",
+                        "type": "number",
                         "name": "monto",
                         "format": "default"
                     },
                     {
-                        "type": "integer",
+                        "type": "string",
                         "name": "cod_inegi_localidad",
                         "format": "default"
                     },
                     {
-                        "type": "integer",
+                        "type": "string",
                         "name": "cod_inegi_municipio",
                         "format": "default"
                     }
@@ -566,7 +566,7 @@
                         "format": "default"
                     },
                     {
-                        "type": "integer",
+                        "type": "string",
                         "name": "ano",
                         "format": "default"
                     },
@@ -576,7 +576,7 @@
                         "format": "default"
                     },
                     {
-                        "type": "integer",
+                        "type": "string",
                         "name": "rnpa",
                         "format": "default"
                     },
@@ -601,7 +601,7 @@
                         "format": "default"
                     },
                     {
-                        "type": "integer",
+                        "type": "number",
                         "name": "monto",
                         "format": "default"
                     },
@@ -611,7 +611,7 @@
                         "format": "default"
                     },
                     {
-                        "type": "integer",
+                        "type": "string",
                         "name": "cod_inegi_municipio",
                         "format": "default"
                     }
@@ -636,7 +636,7 @@
                         "format": "default"
                     },
                     {
-                        "type": "integer",
+                        "type": "string",
                         "name": "ano",
                         "format": "default"
                     },
@@ -656,7 +656,7 @@
                         "format": "default"
                     },
                     {
-                        "type": "integer",
+                        "type": "string",
                         "name": "rnpa",
                         "format": "default"
                     },
@@ -726,7 +726,7 @@
                         "format": "default"
                     },
                     {
-                        "type": "integer",
+                        "type": "string",
                         "name": "ano",
                         "format": "default"
                     },
@@ -746,7 +746,7 @@
                         "format": "default"
                     },
                     {
-                        "type": "integer",
+                        "type": "string",
                         "name": "rnpa",
                         "format": "default"
                     },
@@ -816,7 +816,7 @@
                         "format": "default"
                     },
                     {
-                        "type": "integer",
+                        "type": "string",
                         "name": "Ano",
                         "format": "default"
                     },
@@ -826,7 +826,7 @@
                         "format": "default"
                     },
                     {
-                        "type": "integer",
+                        "type": "string",
                         "name": "rnpa",
                         "format": "default"
                     },
@@ -851,17 +851,17 @@
                         "format": "default"
                     },
                     {
-                        "type": "integer",
+                        "type": "number",
                         "name": "Monto",
                         "format": "default"
                     },
                     {
-                        "type": "integer",
+                        "type": "string",
                         "name": "cod_inegi_localidad",
                         "format": "default"
                     },
                     {
-                        "type": "integer",
+                        "type": "string",
                         "name": "cod_inegi_municipio",
                         "format": "default"
                     }
@@ -886,7 +886,7 @@
                         "format": "default"
                     },
                     {
-                        "type": "integer",
+                        "type": "string",
                         "name": "Ano",
                         "format": "default"
                     },
@@ -896,7 +896,7 @@
                         "format": "default"
                     },
                     {
-                        "type": "integer",
+                        "type": "string",
                         "name": "Rnpa",
                         "format": "default"
                     },
@@ -921,7 +921,7 @@
                         "format": "default"
                     },
                     {
-                        "type": "integer",
+                        "type": "number",
                         "name": "Monto federal",
                         "format": "default"
                     }
@@ -946,7 +946,7 @@
                         "format": "default"
                     },
                     {
-                        "type": "integer",
+                        "type": "string",
                         "name": "Ano",
                         "format": "default"
                     },
@@ -991,7 +991,7 @@
                         "format": "default"
                     },
                     {
-                        "type": "integer",
+                        "type": "number",
                         "name": "Monto",
                         "format": "default"
                     },
@@ -1001,7 +1001,7 @@
                         "format": "default"
                     },
                     {
-                        "type": "integer",
+                        "type": "string",
                         "name": "cod_inegi_municipio",
                         "format": "default"
                     }
@@ -1026,7 +1026,7 @@
                         "format": "default"
                     },
                     {
-                        "type": "integer",
+                        "type": "string",
                         "name": "rnpa",
                         "format": "default"
                     },
@@ -1036,7 +1036,7 @@
                         "format": "default"
                     },
                     {
-                        "type": "integer",
+                        "type": "string",
                         "name": "rnpa_unidad_economica",
                         "format": "default"
                     },
@@ -1101,17 +1101,17 @@
                         "format": "default"
                     },
                     {
-                        "type": "integer",
+                        "type": "string",
                         "name": "COD_INEGI_MUNICIPIO",
                         "format": "default"
                     },
                     {
-                        "type": "integer",
+                        "type": "string",
                         "name": "COD_INEGI_LOCALIDAD",
                         "format": "default"
                     },
                     {
-                        "type": "integer",
+                        "type": "string",
                         "name": "COD_ESTADO",
                         "format": "default"
                     },
@@ -1126,7 +1126,7 @@
                         "format": "default"
                     },
                     {
-                        "type": "integer",
+                        "type": "string",
                         "name": "COD_MUNICIPIO",
                         "format": "default"
                     },
@@ -1136,7 +1136,7 @@
                         "format": "default"
                     },
                     {
-                        "type": "integer",
+                        "type": "string",
                         "name": "COD_LOCALIDAD",
                         "format": "default"
                     },
@@ -1171,7 +1171,7 @@
                         "format": "default"
                     },
                     {
-                        "type": "integer",
+                        "type": "string",
                         "name": "COD_INEGI",
                         "format": "default"
                     }
@@ -1206,7 +1206,7 @@
                         "format": "default"
                     },
                     {
-                        "type": "integer",
+                        "type": "string",
                         "name": "cod_inegi_municipio",
                         "format": "default"
                     },
@@ -1281,7 +1281,7 @@
                         "format": "default"
                     },
                     {
-                        "type": "integer",
+                        "type": "string",
                         "name": "COD_INEGI",
                         "format": "default"
                     },
@@ -1706,7 +1706,7 @@
                         "format": "default"
                     },
                     {
-                        "type": "integer",
+                        "type": "string",
                         "name": "rnpa",
                         "format": "default"
                     },
@@ -1741,7 +1741,7 @@
                         "format": "default"
                     },
                     {
-                        "type": "integer",
+                        "type": "string",
                         "name": "cod_inegi_localidad",
                         "format": "default"
                     },
