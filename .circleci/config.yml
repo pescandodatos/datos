@@ -48,7 +48,7 @@ jobs:
 
       - store_artifacts:
           path: /
-          destination: validations.txt
+          destination: reports/
 
       # - run:
       #     name: Enviar CSVs a la base de datos.
