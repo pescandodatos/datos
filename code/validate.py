@@ -17,15 +17,16 @@ class Validate():
         # TODO: Notify on errors.
         # TODO: save fancy reports to $CIRCLE_ARTIFACTS
 
-        self.valid = True
-        for t in report['tables']:
-            print 'File %s' % t['source']
-            if t['valid']:
-                print colored('\t VALID\n', 'green')
-            else:
-                self.valid = False
-                for error in t['errors']:
-                    print colored('\t%s\n'%error['message'], 'red')
+        with open('/reports/validations.txt', 'w') as file:
+            self.valid = True
+            for t in report['tables']:
+                file.write('File %s' % t['source'])
+                if t['valid']:
+                    file.write(colored('\t VALID\n', 'green'))
+                else:
+                    self.valid = False
+                    for error in t['errors']:
+                        file.write(colored('\t%s\n'%error['message'], 'red'))
 
         # TODO: if no errors then complete task
         # TODO: Fail CircleCI when not valid.
