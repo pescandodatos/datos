@@ -17,7 +17,7 @@ class Validate():
         # TODO: Notify on errors.
         # TODO: save fancy reports to $CIRCLE_ARTIFACTS
 
-        with open('/reports/validations.txt', 'w') as file:
+        with open('reports/validations.txt', 'w') as file:
             self.valid = True
             for t in report['tables']:
                 file.write('File %s' % t['source'])

@@ -47,7 +47,7 @@ jobs:
             python code/validate.py
 
       - store_artifacts:
-          path: /
+          path: /reports/
           destination: reports/
 
       # - run:
