@@ -47,8 +47,7 @@ jobs:
             python code/validate.py
 
       - store_artifacts:
-          path: /reports/
-          destination: /reports/
+          path: validations.txt
 
       # - run:
       #     name: Enviar CSVs a la base de datos.
