@@ -533,12 +533,12 @@
                     {
                         "type": "string",
                         "name": "cod_inegi_localidad",
-                        "format": "default"
+                        "format": ""
                     },
                     {
                         "type": "string",
                         "name": "cod_inegi_municipio",
-                        "format": "default"
+                        "format": ""
                     }
                 ],
                 "missingValues": [
