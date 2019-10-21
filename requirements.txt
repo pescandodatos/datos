@@ -43,5 +43,5 @@ tabulator==1.5.0
 termcolor==1.1.0
 unicodecsv==0.14.1
 Unidecode==0.4.21
-urllib3==1.22
+urllib3==1.24.2
 xlrd==1.0.0
