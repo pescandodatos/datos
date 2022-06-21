@@ -24,7 +24,7 @@ jsonpointer==1.12
 jsonschema==2.6.0
 leather==0.3.3
 linear-tsv==1.0.0
-numpy==1.13.1
+numpy==1.22.0
 openpyxl==2.4.8
 pandas==0.20.3
 parsedatetime==2.4
